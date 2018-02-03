@@ -8,7 +8,6 @@ import os
 import json
 from os import listdir, sep, getcwd
 from os.path import isfile, join
-from Scraper import Scraper
 from Homelist import Homelist
 
 # initialize, and save the default set
@@ -54,14 +53,14 @@ league_scraper.scrape_leagues(True)
 tennis_match_path = "." + sep + "leagues" + sep + "tennis"
 
 initialize_db = True
-
-for possible_file in listdir(tennis_match_path):
-    if isfile(join(tennis_match_path, possible_file)):
-        tennis_match_json_file = join(tennis_match_path, possible_file)
-        with open(tennis_match_json_file, "r") as open_json_file:
-            json_str = open_json_file.read().replace("\n", "")
-            match_scraper = Scraper(json_str, initialize_db)
-            match_scraper.scrape_all_urls(True)
-
-            if initialize_db is True:
-                initialize_db = False
+#
+# for possible_file in listdir(tennis_match_path):
+#     if isfile(join(tennis_match_path, possible_file)):
+#         tennis_match_json_file = join(tennis_match_path, possible_file)
+#         with open(tennis_match_json_file, "r") as open_json_file:
+#             json_str = open_json_file.read().replace("\n", "")
+#             match_scraper = Scraper(json_str, initialize_db)
+#             match_scraper.scrape_all_urls(True)
+#
+#             if initialize_db is True:
+#                 initialize_db = False
