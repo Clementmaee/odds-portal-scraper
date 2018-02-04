@@ -1,0 +1,240 @@
+,League,country,date,player1,player2,result,HomeAwayodd01,HomeAwayodd02,AHgames,AHodd01,AHodd02,OUgames,OUodds1,OUodds2
+0,ATP Australian Open,australia,2017-01-29,Federer R.,Nadal R.,"Final result 3:2 (6:4, 3:6, 6:1, 3:6, 6:3)",2.25,1.75,+1.5,2.04,1.88,+42,1.92,1.99
+1,ATP Australian Open,australia,2017-01-27,Nadal R.,Dimitrov G.,"Final result 3:2 (6:3, 5:7, 7:65, 64:7, 6:4)",1.39,3.37,-5,2.10,1.79,+39.5,1.92,1.99
+2,ATP Australian Open,australia,2017-01-26,Federer R.,Wawrinka S.,"Final result 3:2 (7:5, 6:3, 1:6, 4:6, 6:3)",1.54,2.73,-4,2.04,1.84,+41.5,1.96,1.93
+3,ATP Australian Open,australia,2017-01-25,Nadal R.,Raonic M.,"Final result 3:0 (6:4, 7:67, 6:4)",1.71,2.30,-2.5,2.01,1.87,+43,1.95,1.92
+4,ATP Australian Open,australia,2017-01-25,Goffin D.,Dimitrov G.,"Final result 0:3 (3:6, 2:6, 4:6)",2.46,1.63,+2.5,2.03,1.85,+39.5,1.93,1.97
+5,ATP Australian Open,australia,2017-01-24,Zverev M.,Federer R.,"Final result 0:3 (1:6, 5:7, 2:6)",8.22,1.11,+7.5,1.88,2.03,+32.5,1.93,1.97
+6,ATP Australian Open,australia,2017-01-24,Wawrinka S.,Tsonga J-W.,"Final result 3:0 (7:62, 6:4, 6:3)",1.74,2.25,-2,1.95,1.95,+42.5,1.91,2.00
+7,ATP Australian Open,australia,2017-01-23,Monfils G.,Nadal R.,"Final result 1:3 (3:6, 3:6, 6:4, 4:6)",3.10,1.43,+4.5,2.02,1.88,+39.5,1.94,1.96
+8,ATP Australian Open,australia,2017-01-23,Bautista-Agut R.,Raonic M.,"Final result 1:3 (66:7, 6:3, 4:6, 1:6)",4.09,1.29,+5.5,1.85,2.07,+38,1.94,1.94
+9,ATP Australian Open,australia,2017-01-23,Dimitrov G.,Istomin D.,"Final result 3:1 (2:6, 7:62, 6:2, 6:1)",1.14,6.99,-7,2.00,1.91,+34,1.95,1.93
+10,ATP Australian Open,australia,2017-01-23,Thiem D.,Goffin D.,"Final result 1:3 (7:5, 64:7, 2:6, 2:6)",2.29,1.71,+2.5,1.97,1.93,+40.5,1.93,1.97
+11,ATP Australian Open,australia,2017-01-22,Federer R.,Nishikori K.,"Final result 3:2 (64:7, 6:4, 6:1, 4:6, 6:3)",1.74,2.25,-2.5,1.99,1.92,+41,1.94,1.93
+12,ATP Australian Open,australia,2017-01-22,Tsonga J-W.,Evans D.,"Final result 3:1 (64:7, 6:2, 6:4, 6:4)",1.23,4.84,-6.5,1.95,1.95,+37,1.93,1.98
+13,ATP Australian Open,australia,2017-01-22,Wawrinka S.,Seppi A.,"Final result 3:0 (7:62, 7:64, 7:64)",1.11,8.71,none,none,none,none,none,none
+14,ATP Australian Open,australia,2017-01-22,Murray A.,Zverev M.,"Final result 1:3 (5:7, 7:5, 2:6, 4:6)",1.03,20.76,-9,1.88,2.03,+28.5,2.00,1.91
+15,ATP Australian Open,australia,2017-01-21,Dimitrov G.,Gasquet R.,"Final result 3:0 (6:3, 6:2, 6:4)",1.64,2.45,-4,1.99,1.86,+40.5,1.94,1.93
+16,ATP Australian Open,australia,2017-01-21,Monfils G.,Kohlschreiber P.,"Final result 3:0 (6:3, 7:61, 6:4)",1.21,5.13,-7,1.99,1.85,+35.5,1.95,1.95
+17,ATP Australian Open,australia,2017-01-21,Simon G.,Raonic M.,"Final result 1:3 (2:6, 65:7, 6:3, 3:6)",5.65,1.19,+6.5,1.95,1.95,+37.5,1.97,1.93
+18,ATP Australian Open,australia,2017-01-21,Zverev A.,Nadal R.,"Final result 2:3 (6:4, 3:6, 7:65, 3:6, 2:6)",3.67,1.34,+5.5,1.97,1.93,+39,1.98,1.90
+19,ATP Australian Open,australia,2017-01-21,Carreno-Busta P.,Istomin D.,"Final result 2:3 (4:6, 6:4, 4:6, 6:4, 2:6)",1.34,3.62,-6,2.13,1.78,+38,1.98,1.93
+20,ATP Australian Open,australia,2017-01-21,Bautista-Agut R.,Ferrer D.,"Final result 3:1 (7:5, 66:7, 7:63, 6:4)",1.54,2.69,-5,1.99,1.92,+38,1.94,1.96
+21,ATP Australian Open,australia,2017-01-21,Thiem D.,Paire B.,"Final result 3:1 (6:1, 4:6, 6:4, 6:4)",1.20,5.29,-7,2.06,1.85,+36.5,1.91,2.00
+22,ATP Australian Open,australia,2017-01-21,Karlovic I.,Goffin D.,"Final result 0:3 (3:6, 2:6, 4:6)",4.20,1.28,+4.5,2.01,1.90,+41.5,1.93,1.97
+23,ATP Australian Open,australia,2017-01-20,Berdych T.,Federer R.,"Final result 0:3 (2:6, 4:6, 4:6)",2.65,1.56,+3,2.07,1.85,+41,1.95,1.92
+24,ATP Australian Open,australia,2017-01-20,Lacko L.,Nishikori K.,"Final result 0:3 (4:6, 4:6, 4:6)",17.65,1.04,+8.5,1.99,1.82,+28.5,2.02,1.88
+25,ATP Australian Open,australia,2017-01-20,Tomic B.,Evans D.,"Final result 0:3 (5:7, 62:7, 63:7)",1.59,2.56,-3.5,2.04,1.84,+40,1.97,1.92
+26,ATP Australian Open,australia,2017-01-20,Murray A.,Querrey S.,"Final result 3:0 (6:4, 6:2, 6:4)",1.03,20.40,-8.5,2.04,1.87,+30,1.90,1.97
+27,ATP Australian Open,australia,2017-01-20,Wawrinka S.,Troicki V.,"Final result 3:1 (3:6, 6:2, 6:2, 7:67)",1.14,6.97,-7.5,2.14,1.76,none,none,none
+28,ATP Australian Open,australia,2017-01-20,Zverev M.,Jaziri M.,"Final result 3:1 (6:1, 4:6, 6:3, 6:0)",2.28,1.72,+0.5,2.00,1.86,+38.5,1.93,1.96
+29,ATP Australian Open,australia,2017-01-20,Tsonga J-W.,Sock J.,"Final result 3:1 (7:64, 7:5, 68:7, 6:3)",1.54,2.71,-4.5,2.02,1.83,none,none,none
+30,ATP Australian Open,australia,2017-01-20,Darcis S.,Seppi A.,"Final result 1:3 (6:4, 4:6, 61:7, 62:7)",2.14,1.81,+1,1.98,1.89,+38.5,1.93,1.97
+31,ATP Australian Open,australia,2017-01-19,Baghdatis M.,Nadal R.,"Final result 0:3 (3:6, 1:6, 3:6)",8.67,1.10,+8,2.05,1.85,+30.5,1.93,1.96
+32,ATP Australian Open,australia,2017-01-19,Thiem D.,Thompson J.,"Final result 3:1 (6:2, 6:1, 66:7, 6:4)",1.31,3.85,-6.5,2.03,1.83,+38,1.90,1.99
+33,ATP Australian Open,australia,2017-01-19,Paire B.,Fognini F.,"Final result 3:2 (7:63, 4:6, 6:3, 3:6, 6:3)",2.17,1.78,+1.5,2.01,1.88,+38,1.93,1.93
+34,ATP Australian Open,australia,2017-01-19,Zverev A.,Tiafoe F.,"Final result 3:0 (6:2, 6:3, 6:4)",1.19,5.54,-6.5,2.10,1.81,+36,1.90,1.99
+35,ATP Australian Open,australia,2017-01-19,Karlovic I.,Whittington A.,"Final result 3:0 (6:4, 6:4, 6:4)",1.36,3.48,-4,2.00,1.89,+42.5,1.94,1.93
+36,ATP Australian Open,australia,2017-01-19,Monfils G.,Dolgopolov A.,"Final result 3:1 (6:3, 6:4, 1:6, 6:0)",1.21,5.08,-7,2.07,1.74,+36,1.93,1.93
+37,ATP Australian Open,australia,2017-01-19,Stepanek R.,Goffin D.,"Final result 0:3 (4:6, 0:6, 3:6)",4.85,1.22,+6.5,1.88,1.96,+36,1.93,1.96
+38,ATP Australian Open,australia,2017-01-19,Muller G.,Raonic M.,"Final result 0:3 (3:6, 4:6, 64:7)",4.65,1.24,+4.5,2.03,1.86,+41.5,1.95,1.92
+39,ATP Australian Open,australia,2017-01-19,Istomin D.,Djokovic N.,"Final result 3:2 (7:68, 5:7, 2:6, 7:65, 6:4)",27.22,1.01,+10,2.04,1.85,+27.5,2.05,1.85
+40,ATP Australian Open,australia,2017-01-19,Escobedo E.,Ferrer D.,"Final result 1:3 (6:2, 4:6, 4:6, 2:6)",4.50,1.25,+5.5,1.94,1.94,none,none,none
+41,ATP Australian Open,australia,2017-01-19,Bautista-Agut R.,Nishioka Y.,"Final result 3:0 (6:2, 6:3, 6:3)",1.06,12.02,-8.5,1.85,1.94,+31,1.98,1.91
+42,ATP Australian Open,australia,2017-01-19,Dimitrov G.,Chung H.,"Final result 3:1 (1:6, 6:4, 6:4, 6:4)",1.14,6.90,-8,2.02,1.79,+34.5,1.93,1.93
+43,ATP Australian Open,australia,2017-01-19,Simon G.,Silva D. R.,"Final result 3:0 (6:4, 6:1, 6:1)",1.07,11.25,-8.5,1.94,1.88,+30.5,1.93,1.94
+44,ATP Australian Open,australia,2017-01-19,Berlocq C.,Gasquet R.,"Final result 0:3 (1:6, 1:6, 1:6)",17.65,1.03,+9.5,1.94,1.94,+28.5,1.94,1.94
+45,ATP Australian Open,australia,2017-01-19,Carreno-Busta P.,Edmund K.,"Final result 3:0 (6:2, 6:4, 6:2)",2.17,1.78,+1.5,1.97,1.92,+38.5,1.96,1.90
+46,ATP Australian Open,australia,2017-01-19,Young D.,Kohlschreiber P.,"Final result 0:3 (5:7, 3:6, 0:6)",2.86,1.48,+4.5,2.00,1.83,+32.5,1.92,1.97
+47,ATP Australian Open,australia,2017-01-18,Murray A.,Rublev A.,"Final result 3:0 (6:3, 6:0, 6:2)",1.01,27.22,-10,2.09,1.77,+27.5,1.96,1.93
+48,ATP Australian Open,australia,2017-01-18,Tomic B.,Estrella V.,"Final result 3:1 (7:5, 7:64, 4:6, 7:65)",1.08,10.44,-9,2.03,1.83,+30,1.89,1.96
+49,ATP Australian Open,australia,2017-01-18,Khachanov K.,Sock J.,"Final result 0:3 (3:6, 4:6, 4:6)",3.74,1.32,+5,1.90,1.99,+39,1.92,1.94
+50,ATP Australian Open,australia,2017-01-18,Evans D.,Cilic M.,"Final result 3:1 (3:6, 7:5, 6:3, 6:3)",5.24,1.20,+6,1.96,1.93,+37.5,1.92,1.97
+51,ATP Australian Open,australia,2017-01-18,Seppi A.,Kyrgios N.,"Final result 3:2 (1:6, 61:7, 6:4, 6:2, 10:8)",8.67,1.10,+7,2.10,1.81,+32.5,1.92,1.95
+52,ATP Australian Open,australia,2017-01-18,De Minaur A.,Querrey S.,"Final result 0:3 (65:7, 0:6, 1:6)",3.89,1.30,+5,2.03,1.82,+38.5,1.93,1.95
+53,ATP Australian Open,australia,2017-01-18,Schwartzman D.,Darcis S.,"Final result 1:3 (3:6, 3:6, 6:2, 4:6)",1.65,2.40,-2.5,1.97,1.88,none,none,none
+54,ATP Australian Open,australia,2017-01-18,Lorenzi P.,Troicki V.,"Final result 2:3 (3:6, 6:1, 63:7, 6:3, 3:6)",4.77,1.23,+6.5,1.97,1.88,+37.5,1.98,1.91
+55,ATP Australian Open,australia,2017-01-18,Rubin N.,Federer R.,"Final result 0:3 (5:7, 3:6, 63:7)",17.82,1.03,+8.5,2.09,1.81,+28.5,2.01,1.88
+56,ATP Australian Open,australia,2017-01-18,Wawrinka S.,Johnson S.,"Final result 3:0 (6:3, 6:4, 6:4)",1.27,4.22,-6.5,2.04,1.77,+38.5,1.96,1.93
+57,ATP Australian Open,australia,2017-01-18,Berdych T.,Harrison R.,"Final result 3:0 (6:3, 7:66, 6:2)",1.19,5.46,-5.5,1.83,2.08,+38,1.93,1.95
+58,ATP Australian Open,australia,2017-01-18,Isner J.,Zverev M.,"Final result 2:3 (7:64, 7:64, 4:6, 67:7, 7:9)",1.44,3.03,-3.5,1.99,1.86,+44,1.94,1.91
+59,ATP Australian Open,australia,2017-01-18,Lacko L.,Sela D.,"Final result 3:1 (2:6, 6:3, 6:2, 6:4)",2.95,1.46,+4.5,2.05,1.85,+37,1.93,1.93
+60,ATP Australian Open,australia,2017-01-18,Tsonga J-W.,Lajovic D.,"Final result 3:0 (6:2, 6:2, 6:3)",1.05,14.32,-8.5,2.02,1.77,+32,1.96,1.93
+61,ATP Australian Open,australia,2017-01-18,Chardy J.,Nishikori K.,"Final result 0:3 (3:6, 4:6, 3:6)",9.94,1.08,+7.5,2.01,1.88,none,none,none
+62,ATP Australian Open,australia,2017-01-18,Jaziri M.,Bublik A.,"Final result 3:0 (6:2, 6:3, 7:5)",1.44,3.01,-4.5,1.96,1.88,+38.5,1.93,1.93
+63,ATP Australian Open,australia,2017-01-17,Istomin D.,Dodig I.,"Final result 3:1 (6:1, 6:4, 3:6, 7:5)",2.16,1.78,+1,2.02,1.85,+39,1.90,1.99
+64,ATP Australian Open,australia,2017-01-17,Verdasco F.,Djokovic N.,"Final result 0:3 (1:6, 64:7, 2:6)",12.02,1.06,+8,1.94,1.94,+31.5,1.94,1.92
+65,ATP Australian Open,australia,2017-01-17,Dimitrov G.,O'Connell C.,"Final result 3:0 (7:62, 6:3, 6:3)",1.02,22.73,-9,1.94,1.94,+29,2.03,1.86
+66,ATP Australian Open,australia,2017-01-17,Fognini F.,Lopez F.,"Final result 3:0 (7:5, 6:3, 7:5)",2.32,1.68,+2,2.01,1.85,+39.5,1.96,1.93
+67,ATP Australian Open,australia,2017-01-17,Monfils G.,Vesely J.,"Final result 3:0 (6:2, 6:3, 6:2)",1.31,3.85,-5.5,1.95,1.93,+38.5,1.90,1.99
+68,ATP Australian Open,australia,2017-01-17,Haas T.,Paire B.,"Haas T. retired (62:7, 4:6)",4.22,1.27,+5.5,2.09,1.78,+35.5,1.90,1.99
+69,ATP Australian Open,australia,2017-01-17,Jasika O.,Ferrer D.,"Final result 0:3 (3:6, 0:6, 2:6)",5.35,1.19,+7,2.04,1.81,+34,1.95,1.93
+70,ATP Australian Open,australia,2017-01-17,Chung H.,Olivo R.,"Final result 3:0 (6:2, 6:3, 6:2)",1.23,4.77,-6,1.93,1.95,+35.5,1.97,1.90
+71,ATP Australian Open,australia,2017-01-17,Medvedev D.,Escobedo E.,"Final result 1:3 (5:7, 6:4, 65:7, 1:6)",1.51,2.75,-4,2.02,1.87,+38.5,1.95,1.91
+72,ATP Australian Open,australia,2017-01-17,Karlovic I.,Zeballos H.,"Final result 3:2 (66:7, 3:6, 7:5, 6:2, 22:20)",1.30,3.89,none,none,none,+42.5,1.97,1.92
+73,ATP Australian Open,australia,2017-01-17,Thompson J.,Sousa J.,"Final result 3:2 (62:7, 4:6, 6:3, 6:2, 6:1)",2.66,1.54,+3.5,2.04,1.85,+38.5,1.98,1.91
+74,ATP Australian Open,australia,2017-01-17,Tursunov D.,Stepanek R.,"Final result 0:3 (2:6, 61:7, 3:6)",7.15,1.13,+7,1.87,2.02,+37.5,1.96,1.93
+75,ATP Australian Open,australia,2017-01-17,Dolgopolov A.,Coric B.,"Final result 3:1 (6:3, 6:4, 3:6, 7:67)",1.94,1.96,-0.5,1.97,1.88,+38.5,1.96,1.93
+76,ATP Australian Open,australia,2017-01-17,Mott B.,Gasquet R.,"Final result 0:3 (4:6, 4:6, 2:6)",18.60,1.03,+9,2.03,1.86,+29,1.95,1.93
+77,ATP Australian Open,australia,2017-01-17,Bautista-Agut R.,Pella G.,"Final result 3:0 (6:3, 6:1, 6:1)",1.11,8.36,-8,1.95,1.88,none,none,none
+78,ATP Australian Open,australia,2017-01-17,Muller G.,Fritz T.,"Final result 3:0 (7:66, 7:65, 6:3)",1.38,3.36,-4.5,1.89,1.96,+40,1.96,1.93
+79,ATP Australian Open,australia,2017-01-17,Pavlasek A.,Whittington A.,"Final result 1:3 (4:6, 6:4, 2:6, 3:6)",1.42,3.14,-4.5,2.00,1.85,+38,1.95,1.91
+80,ATP Australian Open,australia,2017-01-17,Thiem D.,Struff J-L.,"Final result 3:1 (4:6, 6:4, 6:4, 6:3)",1.31,3.83,-6,1.97,1.88,+38.5,1.95,1.93
+81,ATP Australian Open,australia,2017-01-17,Youzhny M.,Baghdatis M.,"Youzhny M. retired (3:6, 0:3)",2.37,1.66,+2.5,2.01,1.85,+37.5,1.94,1.93
+82,ATP Australian Open,australia,2017-01-17,Edmund K.,Giraldo S.,"Final result 3:0 (6:2, 7:5, 6:3)",1.34,3.63,-5.5,1.99,1.90,+36,1.94,1.92
+83,ATP Australian Open,australia,2017-01-17,Mayer F.,Nadal R.,"Final result 0:3 (3:6, 4:6, 4:6)",15.91,1.04,+9,1.81,2.09,+29,1.94,1.94
+84,ATP Australian Open,australia,2017-01-17,Carreno-Busta P.,Polansky P.,"Polansky P. retired (6:0, 3:6, 3:6, 6:2, 3:0)",1.24,4.65,-6.5,1.94,1.94,+34.5,1.93,1.94
+85,ATP Australian Open,australia,2017-01-17,Tiafoe F.,Kukushkin M.,"Final result 3:1 (6:1, 63:7, 6:3, 6:2)",1.56,2.62,-5,2.02,1.83,+38.5,1.93,1.93
+86,ATP Australian Open,australia,2017-01-17,Brown D.,Raonic M.,"Final result 0:3 (3:6, 4:6, 2:6)",17.76,1.03,+7,1.92,1.97,+32.5,1.95,1.93
+87,ATP Australian Open,australia,2017-01-17,Opelka R.,Goffin D.,"Final result 2:3 (4:6, 6:4, 2:6, 6:4, 4:6)",6.20,1.16,+6,1.89,2.00,+36,1.98,1.88
+88,ATP Australian Open,australia,2017-01-17,Albot R.,Berlocq C.,"Final result 1:3 (4:6, 64:7, 7:5, 68:7)",2.01,1.90,-1,2.03,1.84,none,none,none
+89,ATP Australian Open,australia,2017-01-17,Nishioka Y.,Bolt A.,"Final result 3:1 (6:4, 1:6, 6:2, 6:4)",1.61,2.47,-3.5,1.99,1.90,+38,1.90,1.99
+90,ATP Australian Open,australia,2017-01-17,Basilashvili N.,Kohlschreiber P.,"Final result 1:3 (4:6, 6:3, 62:7, 4:6)",4.65,1.24,+6,2.11,1.78,+34.5,1.90,1.95
+91,ATP Australian Open,australia,2017-01-17,Donaldson J.,Silva D. R.,"Final result 2:3 (6:3, 6:0, 1:6, 4:6, 4:6)",1.26,4.30,-7,2.03,1.82,+35,1.92,1.93
+92,ATP Australian Open,australia,2017-01-17,Fabbiano T.,Young D.,"Final result 0:3 (4:6, 61:7, 4:6)",2.79,1.50,+4,1.98,1.91,+36.5,1.93,1.94
+93,ATP Australian Open,australia,2017-01-17,Simon G.,Mmoh M.,"Final result 3:0 (6:1, 6:3, 6:3)",1.19,5.42,-7,1.93,1.95,+33.5,1.93,1.93
+94,ATP Australian Open,australia,2017-01-17,Zverev A.,Haase R.,"Final result 3:2 (6:2, 3:6, 5:7, 6:3, 6:2)",1.13,7.38,-7,1.88,2.01,+33,1.98,1.88
+95,ATP Australian Open,australia,2017-01-16,Melzer J.,Federer R.,"Final result 1:3 (5:7, 6:3, 2:6, 2:6)",13.44,1.05,+8,1.86,2.03,+30.5,1.88,2.00
+96,ATP Australian Open,australia,2017-01-16,Darcis S.,Groth S.,"Final result 3:1 (3:6, 6:3, 6:2, 6:2)",1.59,2.52,-3,1.99,1.90,+41.5,1.92,1.94
+97,ATP Australian Open,australia,2017-01-16,Wawrinka S.,Klizan M.,"Final result 3:2 (4:6, 6:4, 7:5, 4:6, 6:4)",1.07,11.52,-7.5,2.02,1.87,+32.5,1.93,1.94
+98,ATP Australian Open,australia,2017-01-16,Elias G.,Kyrgios N.,"Final result 0:3 (1:6, 2:6, 2:6)",9.87,1.08,+7,2.05,1.85,+32,1.94,1.94
+99,ATP Australian Open,australia,2017-01-16,Delbonis F.,Johnson S.,"Final result 0:3 (3:6, 4:6, 4:6)",3.97,1.29,+5.5,2.02,1.87,+37.5,1.96,1.90
+100,ATP Australian Open,australia,2017-01-16,Herbert P.,Sock J.,"Final result 0:3 (4:6, 64:7, 3:6)",4.69,1.23,+5.5,2.08,1.79,+36.5,1.93,1.96
+101,ATP Australian Open,australia,2017-01-16,Bagnis F.,Evans D.,"Final result 0:3 (68:7, 3:6, 1:6)",3.73,1.32,+5.5,2.04,1.85,+35.5,1.91,1.98
+102,ATP Australian Open,australia,2017-01-16,Tsonga J-W.,Monteiro T.,"Final result 3:1 (6:1, 6:3, 65:7, 6:2)",1.04,15.91,-8.5,1.97,1.92,+29,1.88,2.01
+103,ATP Australian Open,australia,2017-01-16,Granollers-Pujol M.,Sela D.,"Final result 1:3 (7:5, 3:6, 2:6, 0:6)",1.85,2.06,-1.5,2.01,1.88,+37.5,1.96,1.93
+104,ATP Australian Open,australia,2017-01-16,Bublik A.,Pouille L.,"Final result 3:1 (6:0, 3:6, 6:3, 6:4)",4.01,1.29,+5.5,2.09,1.81,none,none,none
+105,ATP Australian Open,australia,2017-01-16,Fratangelo B.,Rubin N.,"Final result 2:3 (7:64, 5:7, 6:3, 2:6, 2:6)",1.67,2.35,-3,1.96,1.93,+37.5,1.96,1.91
+106,ATP Australian Open,australia,2017-01-16,Mathieu P.,Seppi A.,"Final result 1:3 (4:6, 64:7, 7:63, 5:7)",3.35,1.38,+5,2.02,1.87,+36.5,1.95,1.93
+107,ATP Australian Open,australia,2017-01-16,Duckworth J.,Lorenzi P.,"Final result 1:3 (4:6, 64:7, 7:64, 4:6)",1.63,2.44,-3,1.95,1.93,+39,1.98,1.91
+108,ATP Australian Open,australia,2017-01-16,Khachanov K.,Mannarino A.,"Final result 3:1 (6:4, 3:6, 7:69, 6:3)",1.76,2.19,-2.5,1.98,1.88,+38,1.97,1.92
+109,ATP Australian Open,australia,2017-01-16,Ramos A.,Lacko L.,"Final result 2:3 (6:4, 5:7, 6:1, 4:6, 3:6)",1.75,2.20,-2.5,1.99,1.87,+37.5,1.94,1.93
+110,ATP Australian Open,australia,2017-01-16,Cuevas P.,Schwartzman D.,"Final result 0:3 (3:6, 3:6, 0:6)",1.93,1.97,-1,2.03,1.83,+38.5,1.96,1.93
+111,ATP Australian Open,australia,2017-01-16,Lajovic D.,Robert S.,"Final result 3:0 (6:3, 6:3, 6:3)",1.92,1.99,-0.5,1.97,1.87,+38,1.93,1.93
+112,ATP Australian Open,australia,2017-01-16,Jaziri M.,Soeda G.,"Final result 3:0 (6:3, 6:4, 6:3)",1.58,2.56,-3.5,1.95,1.93,+37.5,1.94,1.92
+113,ATP Australian Open,australia,2017-01-16,Murray A.,Marchenko I.,"Final result 3:0 (7:5, 7:65, 6:2)",1.01,29.16,-10.5,1.97,1.92,+26.5,1.97,1.92
+114,ATP Australian Open,australia,2017-01-16,Janowicz J.,Cilic M.,"Final result 2:3 (6:4, 6:4, 2:6, 2:6, 3:6)",7.65,1.12,+6.5,2.07,1.79,+33.5,1.93,1.93
+115,ATP Australian Open,australia,2017-01-16,Isner J.,Kravchuk K.,"Final result 3:1 (6:3, 6:4, 65:7, 6:1)",1.10,8.67,-5.5,1.92,1.97,+36,1.94,1.94
+116,ATP Australian Open,australia,2017-01-16,Rublev A.,Lu Y.H.,"Final result 3:1 (4:6, 6:3, 7:60, 6:3)",3.14,1.42,+4.5,2.07,1.80,+38,1.93,1.96
+117,ATP Australian Open,australia,2017-01-16,Tomic B.,Bellucci T.,"Final result 3:0 (6:2, 6:1, 6:4)",1.40,3.23,-5,2.01,1.85,+38,1.93,1.93
+118,ATP Australian Open,australia,2017-01-16,Berdych T.,Vanni L.,Vanni L. retired (6:1),1.05,13.96,-8,1.93,1.96,+30,1.95,1.93
+119,ATP Australian Open,australia,2017-01-16,Garcia-Lopez G.,Zverev M.,"Final result 0:3 (3:6, 65:7, 4:6)",3.81,1.31,+5.5,2.00,1.85,+36,1.96,1.93
+120,ATP Australian Open,australia,2017-01-16,Halys Q.,Querrey S.,"Final result 1:3 (7:610, 64:7, 3:6, 4:6)",3.08,1.43,+4,2.08,1.83,+38,1.93,1.95
+121,ATP Australian Open,australia,2017-01-16,Almagro N.,Chardy J.,Almagro N. retired (0:4),2.05,1.86,+0.5,1.95,1.88,+39.5,1.91,1.94
+122,ATP Australian Open,australia,2017-01-16,Dzumhur D.,Troicki V.,"Final result 2:3 (4:6, 4:6, 6:2, 6:2, 3:6)",4.93,1.22,+6.5,2.08,1.83,+35.5,1.95,1.91
+123,ATP Australian Open,australia,2017-01-16,Estrella V.,Bedene A.,"Final result 3:1 (7:67, 7:5, 0:6, 6:3)",5.83,1.17,+7,2.01,1.88,+34.5,1.93,1.96
+124,ATP Australian Open,australia,2017-01-16,Harrison R.,Mahut N.,"Final result 3:0 (6:3, 6:4, 6:2)",1.72,2.25,-2,1.99,1.90,+39.5,1.94,1.92
+125,ATP Australian Open,australia,2017-01-16,Kuznetsov An.,Nishikori K.,"Final result 2:3 (7:5, 1:6, 4:6, 7:66, 2:6)",8.36,1.11,+7.5,1.94,1.88,+32.5,1.90,1.95
+126,ATP Australian Open,australia,2017-01-16,De Minaur A.,Melzer G.,"Final result 3:2 (5:7, 6:3, 2:6, 7:62, 6:1)",2.50,1.60,+3.5,1.97,1.92,+38,1.93,1.93
+127,ATP Australian Open,australia,2017-01-14,Bolt A.,Benneteau J.,"Final result 2:0 (6:3, 7:5)",3.84,1.28,+4,1.93,1.92,+22,1.97,1.88
+128,ATP Australian Open,australia,2017-01-14,Lee D. H.,Bublik A.,"Final result 1:2 (6:4, 4:6, 4:6)",2.35,1.63,+1.5,2.01,1.81,+22.5,1.91,1.94
+129,ATP Australian Open,australia,2017-01-14,Melzer J.,Ram R.,"Final result 2:1 (6:2, 3:6, 6:3)",1.47,2.81,-3.5,1.98,1.84,+22.5,1.95,1.90
+130,ATP Australian Open,australia,2017-01-14,Bhambri Y.,Escobedo E.,"Final result 1:2 (7:62, 2:6, 4:6)",2.31,1.65,+1.5,2.03,1.78,+22.5,1.96,1.89
+131,ATP Australian Open,australia,2017-01-14,Opelka R.,Ruud C.,"Final result 2:0 (7:62, 6:3)",1.57,2.49,-2.5,1.94,1.91,+23.5,1.94,1.91
+132,ATP Australian Open,australia,2017-01-14,Satral J.,Vanni L.,"Final result 1:2 (6:4, 4:6, 4:6)",1.91,1.94,-1,1.99,1.83,+23.5,1.97,1.88
+133,ATP Australian Open,australia,2017-01-14,Mott B.,McGee J.,"Final result 2:1 (7:65, 3:6, 6:3)",1.89,1.96,-1,2.04,1.79,+22,1.95,1.90
+134,ATP Australian Open,australia,2017-01-14,Fratangelo B.,Moriya H.,"Final result 2:1 (4:6, 6:4, 6:4)",1.49,2.73,-3.5,2.07,1.77,+21.5,1.86,1.99
+135,ATP Australian Open,australia,2017-01-14,Lacko L.,Kudla D.,"Final result 2:0 (6:2, 6:2)",1.94,1.91,+0.5,1.85,1.95,+22.5,1.95,1.90
+136,ATP Australian Open,australia,2017-01-14,Stepanek R.,Smith J. P.,"Final result 2:0 (6:2, 6:4)",1.45,2.85,-3.5,2.03,1.78,+23.5,1.92,1.93
+137,ATP Australian Open,australia,2017-01-14,Tiafoe F.,Smyczek T.,"Final result 2:1 (3:6, 6:0, 7:5)",1.60,2.41,-2.5,1.98,1.88,+22.5,1.86,1.99
+138,ATP Australian Open,australia,2017-01-14,Donskoy E.,Rubin N.,"Final result 0:2 (2:6, 4:6)",1.75,2.15,-2,1.98,1.84,+22.5,1.88,1.98
+139,ATP Australian Open,australia,2017-01-14,Ghem A.,Fabbiano T.,"Final result 0:2 (4:6, 64:7)",2.84,1.46,+3,2.00,1.81,+22.5,1.98,1.88
+140,ATP Australian Open,australia,2017-01-14,Rublev A.,Polansky P.,"Final result 2:1 (6:4, 4:6, 6:3)",1.75,2.15,-2,2.02,1.81,+23.5,1.97,1.88
+141,ATP Australian Open,australia,2017-01-14,Trungelliti M.,Soeda G.,"Final result 1:2 (2:6, 6:3, 4:6)",1.72,2.18,-2,2.03,1.80,+22,1.90,1.95
+142,ATP Australian Open,australia,2017-01-14,Wu D.,Dodig I.,"Final result 0:2 (1:6, 5:7)",3.16,1.38,+4,1.92,1.93,+21.5,1.95,1.90
+143,ATP Australian Open,australia,2017-01-13,Coppejans K.,Bublik A.,"Final result 1:2 (7:62, 4:6, 2:6)",1.74,2.16,-2.5,2.04,1.78,+22.5,1.93,1.92
+144,ATP Australian Open,australia,2017-01-13,Bolt A.,Bachinger M.,"Final result 2:0 (6:4, 7:65)",1.70,2.22,-2.5,2.04,1.79,+23.5,1.94,1.91
+145,ATP Australian Open,australia,2017-01-13,Lee D. H.,Mousley B.,"Final result 2:1 (65:7, 6:0, 6:2)",1.49,2.73,-3.5,2.01,1.81,+21.5,1.86,1.99
+146,ATP Australian Open,australia,2017-01-13,Clezar G.,Benneteau J.,"Final result 0:2 (5:7, 0:6)",6.12,1.14,+5,1.93,1.93,+20,1.93,1.93
+147,ATP Australian Open,australia,2017-01-13,Arevalo M.,Ram R.,"Final result 1:2 (1:6, 6:4, 6:8)",2.66,1.51,+2.5,2.07,1.76,+22.5,1.97,1.88
+148,ATP Australian Open,australia,2017-01-13,Krueger M.,Opelka R.,"Final result 0:2 (3:6, 62:7)",2.89,1.44,+2.5,2.08,1.75,+23,1.85,2.00
+149,ATP Australian Open,australia,2017-01-13,Daniel T.,Melzer J.,"Final result 0:2 (3:6, 2:6)",2.40,1.61,none,none,none,+22,1.96,1.89
+150,ATP Australian Open,australia,2017-01-13,Kamke T.,Mott B.,"Final result 0:2 (2:6, 4:6)",1.41,3.05,-4,2.09,1.75,+21.5,1.88,1.97
+151,ATP Australian Open,australia,2017-01-13,McGee J.,Millot V.,"Final result 2:0 (6:2, 6:4)",2.46,1.58,+2,1.99,1.86,+22,1.99,1.86
+152,ATP Australian Open,australia,2017-01-13,Eysseric J.,Ruud C.,"Final result 1:2 (3:6, 6:3, 3:6)",2.83,1.46,+3,2.01,1.81,+21.5,1.86,1.99
+153,ATP Australian Open,australia,2017-01-12,Basic M.,Polansky P.,"Final result 0:2 (4:6, 3:6)",2.75,1.48,+2.5,2.04,1.78,+22.5,1.91,1.94
+154,ATP Australian Open,australia,2017-01-12,Donskoy E.,Ebden M.,"Final result 2:1 (7:63, 4:6, 6:2)",1.70,2.21,-2,1.96,1.89,+22,1.86,1.99
+155,ATP Australian Open,australia,2017-01-12,Rubin N.,Carballes Baena R.,"Final result 2:1 (6:4, 3:6, 6:2)",1.80,2.07,-1.5,1.99,1.86,+22,1.88,1.98
+156,ATP Australian Open,australia,2017-01-12,Satral J.,Uchiyama Y.,"Final result 2:1 (7:66, 1:6, 9:7)",1.58,2.45,-3,2.09,1.76,+22,1.90,1.95
+157,ATP Australian Open,australia,2017-01-12,Sugita Y.,Rublev A.,"Final result 0:2 (4:6, 62:7)",1.81,2.06,-2,2.00,1.83,+22.5,1.98,1.86
+158,ATP Australian Open,australia,2017-01-12,Vanni L.,Sarkissian A.,"Final result 2:1 (3:6, 6:3, 6:2)",1.77,2.11,-1.5,1.95,1.90,+22.5,1.88,1.97
+159,ATP Australian Open,australia,2017-01-12,Moriya H.,Ignatik U.,"Final result 2:1 (4:6, 6:2, 6:3)",2.36,1.63,+2,2.02,1.81,+22,1.93,1.93
+160,ATP Australian Open,australia,2017-01-12,Stepanek R.,Kavcic B.,"Final result 2:1 (6:3, 64:7, 8:6)",1.41,3.05,-4,2.11,1.73,+22,1.97,1.85
+161,ATP Australian Open,australia,2017-01-12,Bhambri Y.,Krstin P.,"Final result 2:0 (6:3, 6:4)",1.33,3.47,-4.5,2.03,1.79,+20.5,1.88,1.94
+162,ATP Australian Open,australia,2017-01-12,Ito T.,Escobedo E.,"Final result 0:2 (1:6, 3:6)",3.40,1.34,+3.5,2.10,1.78,+22,1.99,1.86
+163,ATP Australian Open,australia,2017-01-12,Menendez-Maceiras A.,Soeda G.,"Final result 1:2 (6:3, 4:6, 5:7)",2.45,1.58,none,none,none,+22,1.86,1.99
+164,ATP Australian Open,australia,2017-01-12,Ghem A.,Kibi Y.,"Final result 2:1 (2:6, 6:3, 6:1)",1.61,2.40,-2.5,1.93,1.92,+22,1.89,1.96
+165,ATP Australian Open,australia,2017-01-12,Smith J. P.,De Schepper K.,"Final result 2:0 (6:4, 6:3)",1.59,2.45,-2.5,2.00,1.83,+23.5,1.92,1.93
+166,ATP Australian Open,australia,2017-01-12,Santillan A.,Fabbiano T.,"Final result 1:2 (6:4, 4:6, 2:6)",1.93,1.92,-1,2.00,1.83,+22.5,1.98,1.88
+167,ATP Australian Open,australia,2017-01-12,Trungelliti M.,Gojowczyk P.,Gojowczyk P. retired (5:0),3.65,1.31,+3.5,1.98,1.82,+21.5,1.98,1.88
+168,ATP Australian Open,australia,2017-01-12,Dodig I.,Djere L.,"Final result 2:1 (6:3, 1:6, 6:2)",1.30,3.69,-4,1.91,1.94,+21,1.91,1.94
+169,ATP Australian Open,australia,2017-01-12,Safwat M.,Smyczek T.,"Final result 0:2 (4:6, 3:6)",3.32,1.36,+4,1.97,1.88,+21,1.91,1.94
+170,ATP Australian Open,australia,2017-01-12,Zekic M.,Wu D.,"Final result 0:2 (4:6, 2:6)",3.39,1.34,+3.5,2.01,1.85,+21.5,1.94,1.91
+171,ATP Australian Open,australia,2017-01-12,Lacko L.,Gonzalez M.,"Final result 2:1 (4:6, 6:2, 6:2)",1.29,3.76,-4,1.93,1.92,+21.5,1.91,1.94
+172,ATP Australian Open,australia,2017-01-12,Tiafoe F.,Reuter Y.,"Final result 2:0 (6:4, 6:0)",1.26,4.12,-4.5,1.89,1.96,+21,1.94,1.91
+173,ATP Australian Open,australia,2017-01-12,Fratangelo B.,Tsitsipas S.,"Final result 2:1 (4:6, 6:1, 6:3)",1.65,2.31,-2.5,2.01,1.85,+22.5,1.97,1.88
+174,ATP Australian Open,australia,2017-01-12,King D.,Kudla D.,"Final result 1:2 (6:4, 4:6, 4:6)",2.72,1.49,+3,2.03,1.83,+21.5,1.86,1.99
+175,ATP Australian Open,australia,2017-01-11,Bourgue M.,Eysseric J.,"Final result 1:2 (6:1, 3:6, 2:6)",1.54,2.57,-3.5,2.02,1.80,+22,1.96,1.89
+176,ATP Australian Open,australia,2017-01-11,Kamke T.,Novikov D.,"Final result 2:0 (7:65, 6:4)",1.63,2.36,-3,2.01,1.81,+22,1.86,1.99
+177,ATP Australian Open,australia,2017-01-11,Kicker N.,Lee D. H.,"Final result 1:2 (7:5, 5:7, 1:6)",none,none,none,none,none,none,none,none
+178,ATP Australian Open,australia,2017-01-11,Ruud C.,Gabashvili T.,"Final result 2:0 (6:4, 6:4)",2.36,1.63,+2,1.98,1.84,+22,1.90,1.95
+179,ATP Australian Open,australia,2017-01-11,Fucsovics M.,Mousley B.,"Final result 1:2 (6:3, 0:6, 4:6)",1.21,4.71,-5,2.05,1.78,+20.5,1.94,1.91
+180,ATP Australian Open,australia,2017-01-11,Bachinger M.,Skugor F.,"Final result 2:0 (7:66, 6:3)",1.85,2.01,-1,1.96,1.85,+22.5,1.93,1.93
+181,ATP Australian Open,australia,2017-01-11,Milojevic N.,Benneteau J.,"Final result 0:2 (3:6, 3:6)",3.84,1.28,+4,2.08,1.75,+21,1.88,1.97
+182,ATP Australian Open,australia,2017-01-11,Chiudinelli M.,Krueger M.,"Final result 1:2 (6:1, 4:6, 3:6)",1.56,2.53,-3,1.98,1.88,+22,1.92,1.93
+183,ATP Australian Open,australia,2017-01-11,Kudryavtsev A.,Mott B.,"Final result 0:2 (1:6, 2:6)",1.76,2.12,none,none,none,+22,1.86,1.99
+184,ATP Australian Open,australia,2017-01-11,Opelka R.,Napolitano S.,"Final result 2:0 (7:5, 6:3)",1.61,2.40,-2,1.93,1.93,+23.5,1.97,1.88
+185,ATP Australian Open,australia,2017-01-11,Pecotic M.,McGee J.,"Final result 0:2 (63:7, 5:7)",1.99,1.86,+0.5,1.87,1.93,+22,1.86,1.99
+186,ATP Australian Open,australia,2017-01-11,Coppejans K.,Sandgren T.,"Final result 2:0 (6:1, 7:65)",2.24,1.69,+1,2.03,1.79,+22,1.89,1.96
+187,ATP Australian Open,australia,2017-01-11,Sugita Y.,Polmans M.,"Final result 2:0 (6:1, 6:1)",1.36,3.27,-4,2.09,1.79,+22,1.99,1.86
+188,ATP Australian Open,australia,2017-01-11,Bellotti R.,Millot V.,"Final result 0:2 (3:6, 1:6)",3.54,1.32,+4,1.89,1.96,+21.5,1.97,1.88
+189,ATP Australian Open,australia,2017-01-11,Mesaros K.,Clezar G.,"Final result 0:2 (2:6, 1:6)",3.35,1.35,+4,1.91,1.94,+21.5,1.99,1.86
+190,ATP Australian Open,australia,2017-01-11,Bublik A.,De Greef A.,"Final result 2:1 (5:7, 6:3, 8:6)",1.66,2.30,-2.5,2.00,1.85,+22,1.92,1.93
+191,ATP Australian Open,australia,2017-01-11,Uchiyama Y.,Tepavac M.,"Final result 2:0 (6:4, 7:62)",1.97,1.88,-0.5,1.98,1.83,+22.5,1.88,1.98
+192,ATP Australian Open,australia,2017-01-11,Purcell M.,Rublev A.,"Final result 1:2 (4:6, 7:66, 1:6)",3.91,1.28,+4,1.98,1.88,+21.5,1.93,1.92
+193,ATP Australian Open,australia,2017-01-11,Matosevic M.,Carballes Baena R.,"Final result 0:2 (4:6, 2:6)",1.61,2.40,-2.5,1.97,1.88,+22.5,1.89,1.96
+194,ATP Australian Open,australia,2017-01-11,Melzer J.,De Loore J.,"Final result 2:1 (6:2, 3:6, 6:3)",1.71,2.20,-2.5,2.04,1.79,+22,1.86,1.99
+195,ATP Australian Open,australia,2017-01-11,Sarkissian A.,Laaksonen H.,"Final result 2:0 (6:4, 6:1)",2.89,1.44,+3.5,1.93,1.93,+21.5,1.88,1.98
+196,ATP Australian Open,australia,2017-01-11,Giustino L.,Basic M.,"Final result 1:2 (6:3, 3:6, 2:6)",2.77,1.48,+3,1.98,1.88,+22,1.96,1.89
+197,ATP Australian Open,australia,2017-01-11,Ivashka I.,Ram R.,"Final result 0:2 (4:6, 4:6)",2.03,1.83,+0.5,1.92,1.88,+23,1.94,1.88
+198,ATP Australian Open,australia,2017-01-11,Giannessi A.,Satral J.,"Final result 0:2 (66:7, 64:7)",1.61,2.40,-3,2.08,1.75,+22,1.91,1.94
+199,ATP Australian Open,australia,2017-01-11,Lamasine T.,Polansky P.,"Final result 0:2 (2:6, 4:6)",2.75,1.48,+3,1.99,1.86,+22,1.94,1.91
+200,ATP Australian Open,australia,2017-01-11,Daniel T.,Setkic A.,"Final result 2:0 (7:5, 6:4)",1.50,2.70,-3,1.93,1.92,none,none,none
+201,ATP Australian Open,australia,2017-01-11,Gaio F.,Vanni L.,"Final result 1:2 (7:5, 2:6, 3:6)",3.08,1.40,+3,2.05,1.78,+22,1.96,1.89
+202,ATP Australian Open,australia,2017-01-11,Copil M.,Bolt A.,"Final result 1:2 (7:62, 4:6, 4:6)",1.40,3.08,none,none,none,+22.5,1.89,1.96
+203,ATP Australian Open,australia,2017-01-11,Kibi Y.,Baker B.,"Final result 2:0 (6:3, 7:64)",4.64,1.22,+4.5,1.99,1.86,+20.5,1.92,1.93
+204,ATP Australian Open,australia,2017-01-11,Lacko L.,Jahn J.,"Final result 2:0 (6:2, 6:3)",1.28,3.87,-4.5,2.05,1.81,+21,1.93,1.93
+205,ATP Australian Open,australia,2017-01-11,Hernandez-Fernandez J.,King D.,"Final result 0:2 (2:6, 2:6)",4.60,1.22,+4.5,1.97,1.88,+20.5,1.93,1.93
+206,ATP Australian Open,australia,2017-01-11,Saville L.,Kudla D.,"Final result 0:2 (4:6, 5:7)",3.28,1.36,+3.5,1.99,1.86,+21.5,1.87,1.97
+207,ATP Australian Open,australia,2017-01-11,Jones S.,Arevalo M.,"Final result 0:2 (2:6, 2:6)",10.28,1.06,+7,2.18,1.72,+17,1.93,1.93
+208,ATP Australian Open,australia,2017-01-11,Lopez-Perez E.,Gonzalez M.,"Final result 0:2 (64:7, 64:7)",1.54,2.57,-3,2.04,1.78,+22.5,1.97,1.88
+209,ATP Australian Open,australia,2017-01-11,Rubin N.,Stebe C.,"Final result 2:1 (5:7, 6:4, 6:4)",1.93,1.92,-1,1.99,1.84,+22,1.86,1.99
+210,ATP Australian Open,australia,2017-01-11,Ymer E.,Santillan A.,"Final result 0:2 (3:6, 64:7)",1.93,1.93,+0.5,1.85,1.94,+22,1.88,1.98
+211,ATP Australian Open,australia,2017-01-11,Souza J.,Ghem A.,"Final result 1:2 (2:6, 7:5, 6:8)",1.63,2.36,-2.5,1.93,1.92,+22.5,1.90,1.95
+212,ATP Australian Open,australia,2017-01-11,Donskoy E.,Popko D.,"Final result 2:1 (3:6, 6:1, 9:7)",1.43,2.96,-3.5,1.89,1.96,+22,2.00,1.83
+213,ATP Australian Open,australia,2017-01-11,Dodig I.,Weintraub A.,"Final result 2:0 (6:2, 6:2)",1.22,4.54,-5,1.92,1.93,+20,1.86,1.99
+214,ATP Australian Open,australia,2017-01-11,Ebden M.,Golubev A.,"Final result 2:0 (6:1, 6:2)",1.52,2.63,-3,2.00,1.85,+22.5,1.92,1.93
+215,ATP Australian Open,australia,2017-01-11,Klahn B.,Fabbiano T.,"Final result 1:2 (4:6, 7:63, 3:6)",1.93,1.93,-1,2.04,1.79,+22,1.91,1.94
+216,ATP Australian Open,australia,2017-01-11,Moriya H.,Bourchier H.,"Final result 2:0 (6:2, 6:3)",1.65,2.32,-2.5,2.02,1.80,+22,1.96,1.89
+217,ATP Australian Open,australia,2017-01-11,Becker B.,Zekic M.,"Final result 1:2 (4:6, 7:5, 8:10)",1.19,5.01,-4.5,1.88,1.97,+20.5,1.93,1.93
+218,ATP Australian Open,australia,2017-01-11,Djere L.,Martin A.,"Final result 2:0 (6:0, 6:2)",2.10,1.78,+0.5,2.02,1.80,+22,1.91,1.94
+219,ATP Australian Open,australia,2017-01-11,Masur D.,Ito T.,"Final result 0:2 (4:6, 65:7)",2.45,1.58,+2,2.05,1.79,+21.5,1.88,1.97
+220,ATP Australian Open,australia,2017-01-11,Ignatik U.,Pospisil V.,"Final result 2:1 (3:6, 6:3, 6:4)",4.47,1.23,+4,2.02,1.80,+21.5,1.95,1.90
+221,ATP Australian Open,australia,2017-01-11,Banes M.,Wu D.,"Final result 0:2 (1:6, 1:6)",2.63,1.52,+3,1.97,1.88,+22,2.00,1.85
+222,ATP Australian Open,australia,2017-01-11,Van Peperzeel G.,Tsitsipas S.,"Final result 0:2 (2:6, 1:6)",3.87,1.28,+4,1.97,1.88,+21.5,1.93,1.93
+223,ATP Australian Open,australia,2017-01-11,Kozlov S.,Bhambri Y.,"Final result 0:2 (1:6, 4:6)",1.83,2.03,none,none,none,+21.5,1.90,1.94
+224,ATP Australian Open,australia,2017-01-11,Marterer M.,Escobedo E.,"Final result 0:2 (65:7, 5:7)",2.47,1.58,+2,1.99,1.83,+22.5,1.91,1.94
+225,ATP Australian Open,australia,2017-01-11,Krstin P.,Kolar Z.,"Final result 2:1 (3:6, 6:1, 7:5)",1.46,2.82,-3.5,1.93,1.93,+21.5,1.88,1.97
+226,ATP Australian Open,australia,2017-01-11,Fratangelo B.,Zemlja G.,"Final result 2:0 (6:4, 7:63)",1.56,2.50,-3,1.96,1.89,+21.5,1.89,1.94
+227,ATP Australian Open,australia,2017-01-10,Brands D.,Menendez-Maceiras A.,"Final result 1:2 (6:3, 67:7, 4:6)",1.68,2.26,-2.5,1.95,1.86,+23,1.93,1.92
+228,ATP Australian Open,australia,2017-01-10,De Schepper K.,Gombos N.,"Final result 2:1 (6:4, 5:7, 9:7)",2.07,1.80,-1,2.00,1.83,+23,1.88,1.98
+229,ATP Australian Open,australia,2017-01-10,Kovalik J.,Trungelliti M.,"Final result 0:2 (3:6, 3:6)",1.62,2.37,-2.5,1.97,1.88,+22,1.94,1.91
+230,ATP Australian Open,australia,2017-01-10,Sousa P.,Safwat M.,"Final result 0:2 (62:7, 4:6)",3.60,1.31,+4,2.08,1.75,+20.5,1.89,1.96
+231,ATP Australian Open,australia,2017-01-10,Stepanek R.,Bangoura S.,"Final result 2:1 (6:3, 62:7, 6:2)",1.08,8.67,-6,1.88,1.97,+18.5,2.00,1.85
+232,ATP Australian Open,australia,2017-01-10,Bemelmans R.,Soeda G.,"Final result 0:2 (610:7, 3:6)",1.66,2.29,-2,1.96,1.89,+22.5,1.93,1.92
+233,ATP Australian Open,australia,2017-01-10,Diez S.,Reuter Y.,"Final result 1:2 (3:6, 6:2, 4:6)",1.55,2.54,-3,1.95,1.90,+22,1.96,1.89
+234,ATP Australian Open,australia,2017-01-10,Donati M.,Kavcic B.,"Donati M. retired (2:6, 3:3)",4.12,1.26,+4.5,2.02,1.84,+20.5,1.88,1.98
+235,ATP Australian Open,australia,2017-01-10,Gojowczyk P.,Myneni S.,"Final result 2:0 (6:0, 6:2)",1.25,4.23,-4.5,2.06,1.81,+21,1.91,1.94
+236,ATP Australian Open,australia,2017-01-10,Samper-Montana J.,Smyczek T.,"Final result 0:2 (3:6, 3:6)",5.33,1.18,+5,2.13,1.72,+19.5,1.86,1.99
+237,ATP Australian Open,australia,2017-01-10,Smith J. P.,Velotti A.,"Final result 2:0 (7:66, 6:3)",1.26,4.12,-4.5,1.86,1.99,+20.5,1.89,1.96
+238,ATP Australian Open,australia,2017-01-10,Tiafoe F.,Cecchinato M.,"Final result 2:1 (6:3, 5:7, 7:5)",1.19,5.04,-5,2.11,1.73,+20,1.85,2.01

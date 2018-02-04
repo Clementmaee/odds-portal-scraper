@@ -1,0 +1,60 @@
+,League,country,date,player1,player2,result,HomeAwayodd01,HomeAwayodd02,AHgames,AHodd01,AHodd02,OUgames,OUodds1,OUodds2
+0,ATP Buenos Aires,argentina,2014-02-16,Ferrer D.,Fognini F.,"Final result 2:0 (6:4, 6:3)",1.40,3.28,-4,2.01,1.90,+22.5,1.88,2.04
+1,ATP Buenos Aires,argentina,2014-02-15,Ferrer D.,Almagro N.,"Final result 2:0 (6:4, 6:2)",1.36,3.50,-3.5,1.93,1.97,+22,1.88,2.02
+2,ATP Buenos Aires,argentina,2014-02-15,Robredo T.,Fognini F.,"Final result 1:2 (6:3, 5:7, 3:6)",2.28,1.72,+2,1.97,1.93,+22.5,1.95,1.95
+3,ATP Buenos Aires,argentina,2014-02-15,Almagro N.,Chardy J.,"Final result 2:0 (7:67, 6:3)",1.42,3.16,-3.5,2.11,1.78,+22.5,1.98,1.93
+4,ATP Buenos Aires,argentina,2014-02-14,Ferrer D.,Ramos A.,"Final result 2:0 (6:1, 6:2)",1.14,7.10,-5.5,2.11,1.78,+20,2.01,1.90
+5,ATP Buenos Aires,argentina,2014-02-14,Andujar-Alba P.,Fognini F.,"Final result 0:2 (4:6, 3:6)",4.05,1.29,+4,2.11,1.78,+20.5,1.92,1.97
+6,ATP Buenos Aires,argentina,2014-02-14,Haase R.,Robredo T. ,"Haase R. retired (1:6, 0:2)",2.80,1.51,+3,1.98,1.93,+22,1.89,2.02
+7,ATP Buenos Aires,argentina,2014-02-14,Volandri F.,Ramos A.,"Final result 0:2 (2:6, 1:6)",2.52,1.60,+3,1.98,1.91,+22,1.99,1.90
+8,ATP Buenos Aires,argentina,2014-02-13,Ferrer D.,Giraldo S.,"Final result 2:0 (6:4, 7:61)",1.14,6.73,-4.5,1.84,2.06,+20.5,1.98,1.91
+9,ATP Buenos Aires,argentina,2014-02-13,Almagro N.,Gimeno-Traver D.,"Final result 2:1 (1:6, 7:5, 6:4)",1.19,5.35,-4.5,2.01,1.88,+21.5,1.99,1.90
+10,ATP Buenos Aires,argentina,2014-02-13,Dolgopolov A.,Chardy J.,"Final result 1:2 (3:6, 6:3, 63:7)",2.18,1.77,+1,2.00,1.86,+22.5,1.90,1.99
+11,ATP Buenos Aires,argentina,2014-02-13,Haase R.,Berlocq C.,"Final result 2:1 (6:2, 64:7, 6:2)",2.73,1.52,+3,2.00,1.89,+22,1.88,2.01
+12,ATP Buenos Aires,argentina,2014-02-12,Mayer L.,Fognini F.,"Final result 1:2 (7:64, 3:6, 2:6)",4.30,1.26,+4.5,2.01,1.88,+20.5,1.99,1.90
+13,ATP Buenos Aires,argentina,2014-02-12,Pella G.,Robredo T.,"Final result 1:2 (6:4, 1:6, 4:6)",4.30,1.26,+4.5,1.94,1.94,+21,1.93,1.92
+14,ATP Buenos Aires,argentina,2014-02-12,Granollers-Pujol M.,Andujar-Alba P.,"Final result 0:2 (3:6, 0:6)",1.67,2.35,-3,1.98,1.88,+22.5,2.01,1.87
+15,ATP Buenos Aires,argentina,2014-02-12,Almagro N.,Zeballos H.,"Final result 2:0 (6:2, 7:5)",1.16,5.99,-5,1.94,1.91,+20.5,2.00,1.85
+16,ATP Buenos Aires,argentina,2014-02-12,Dolgopolov A.,Cuevas P.,"Final result 2:1 (6:3, 4:6, 7:65)",1.39,3.23,-4,1.95,1.90,+21.5,1.96,1.89
+17,ATP Buenos Aires,argentina,2014-02-12,Ramirez-H.R.,Gimeno-Traver D.,"Final result 0:2 (5:7, 2:6)",3.18,1.40,+4,2.10,1.78,+21,1.93,1.93
+18,ATP Buenos Aires,argentina,2014-02-12,Gonzalez A.,Chardy J.,"Final result 0:2 (4:6, 5:7)",4.55,1.24,+5,1.90,1.95,+20.5,1.97,1.88
+19,ATP Buenos Aires,argentina,2014-02-12,Ramos A.,Monaco J.,"Final result 2:1 (63:7, 6:4, 6:2)",3.38,1.36,+4,1.98,1.88,+21,1.91,1.94
+20,ATP Buenos Aires,argentina,2014-02-11,Ferrer D.,Gonzalez M.,"Final result 2:0 (7:67, 6:4)",1.06,11.18,-7,2.13,1.68,+18,1.85,2.00
+21,ATP Buenos Aires,argentina,2014-02-11,Garin Ch.,Volandri F.,"Final result 1:2 (7:5, 0:6, 3:6)",2.78,1.49,+2.5,2.04,1.75,+21.5,1.88,1.97
+22,ATP Buenos Aires,argentina,2014-02-11,Haase R.,Alund M.,"Final result 2:1 (6:4, 66:7, 6:3)",1.74,2.20,-2,2.01,1.83,+22,1.87,1.99
+23,ATP Buenos Aires,argentina,2014-02-11,Montanes A.,Giraldo S.,"Final result 0:2 (64:7, 2:6)",2.83,1.48,+3.5,2.00,1.85,+21,1.93,1.93
+24,ATP Buenos Aires,argentina,2014-02-11,Reister J.,Fognini F.,"Final result 0:2 (5:7, 2:6)",6.49,1.14,+5,2.00,1.85,+20,1.99,1.86
+25,ATP Buenos Aires,argentina,2014-02-11,Arguello F.,Mayer L.,"Final result 0:2 (3:6, 4:6)",2.49,1.59,+2,2.01,1.79,+22,1.94,1.87
+26,ATP Buenos Aires,argentina,2014-02-11,Carreno-Busta P.,Robredo T.,"Final result 0:2 (4:6, 4:6)",3.66,1.32,none,none,none,+21,1.86,1.99
+27,ATP Buenos Aires,argentina,2014-02-11,Delbonis F.,Andujar-Alba P.,"Final result 1:2 (6:3, 5:7, 1:6)",1.56,2.56,-3,2.00,1.82,+22,1.96,1.89
+28,ATP Buenos Aires,argentina,2014-02-10,Sousa J.,Berlocq C.,"Final result 0:2 (4:6, 2:6)",3.63,1.33,+4,2.02,1.84,+21.5,1.93,1.93
+29,ATP Buenos Aires,argentina,2014-02-10,Garcia-Lopez G.,Pella G.,"Final result 0:2 (66:7, 4:6)",1.65,2.37,-2.5,1.99,1.86,+22,1.91,1.94
+30,ATP Buenos Aires,argentina,2014-02-10,Granollers-Pujol M.,Bedene A.,"Final result 2:1 (7:5, 3:6, 6:2)",1.63,2.40,-2.5,1.93,1.93,+22,1.89,1.96
+31,ATP Buenos Aires,argentina,2014-02-10,Haider-Maurer A.,Alund M.,"Final result 1:2 (3:6, 6:4, 1:6)",2.71,1.49,none,none,none,none,none,none
+32,ATP Buenos Aires,argentina,2014-02-10,Garin Ch.,Melzer G.,"Final result 2:1 (3:6, 6:4, 6:4)",1.83,2.03,none,none,none,none,none,none
+33,ATP Buenos Aires,argentina,2014-02-10,Clezar G.,Gonzalez M.,"Final result 1:2 (3:6, 6:4, 4:6)",2.03,1.83,none,none,none,none,none,none
+34,ATP Buenos Aires,argentina,2014-02-10,Ramirez-H.R.,Monroe N.,"Final result 2:0 (7:65, 6:0)",1.13,6.50,none,none,none,none,none,none
+35,ATP Buenos Aires,argentina,2014-02-09,Daniel T.,Alund M.,"Final result 0:2 (1:6, 0:6)",none,none,none,none,none,none,none,none
+36,ATP Buenos Aires,argentina,2014-02-09,Haider-Maurer A.,Starace P.,"Final result 2:0 (6:3, 6:4)",2.21,1.71,none,none,none,none,none,none
+37,ATP Buenos Aires,argentina,2014-02-09,Gonzalez M.,Andreozzi G.,"Final result 2:0 (6:2, 6:4)",2.29,1.66,none,none,none,none,none,none
+38,ATP Buenos Aires,argentina,2014-02-09,Garin Ch.,Londero J. I.,"Final result 2:0 (6:2, 7:65)",1.81,2.05,none,none,none,none,none,none
+39,ATP Buenos Aires,argentina,2014-02-09,Melzer G.,Souto D.,"Final result 2:0 (6:0, 7:66)",1.38,3.16,none,none,none,none,none,none
+40,ATP Buenos Aires,argentina,2014-02-09,Olivo R.,Ramirez-H.R.,"Final result 1:2 (61:7, 6:3, 5:7)",2.61,1.53,none,none,none,none,none,none
+41,ATP Buenos Aires,argentina,2014-02-09,Clezar G.,Trungelliti M.,"Final result 2:0 (6:4, 7:63)",1.38,3.19,none,none,none,none,none,none
+42,ATP Buenos Aires,argentina,2014-02-09,Collarini A.,Alund M.,"Final result 0:2 (4:6, 63:7)",3.44,1.34,none,none,none,none,none,none
+43,ATP Buenos Aires,argentina,2014-02-09,Monroe N.,Stadler S. ,"Stadler S. retired (4:6, 6:4, 1:0)",2.38,1.62,none,none,none,none,none,none
+44,ATP Buenos Aires,argentina,2014-02-08,Schwank E.,Daniel T.,"Final result 0:2 (62:7, 2:6)",2.16,1.74,none,none,none,none,none,none
+45,ATP Buenos Aires,argentina,2014-02-08,Schwartzman D.,Garin Ch.,"Final result 0:2 (1:6, 4:6)",1.34,3.41,none,none,none,none,none,none
+46,ATP Buenos Aires,argentina,2014-02-08,Haider-Maurer A.,Silva D. R. ,Silva D. R. retired (5:4),1.50,2.69,none,none,none,none,none,none
+47,ATP Buenos Aires,argentina,2014-02-08,Starace P.,Molteni A.,"Final result 2:0 (7:63, 6:3)",1.41,3.05,none,none,none,none,none,none
+48,ATP Buenos Aires,argentina,2014-02-08,Bracciali D.,Londero J. I.,"Final result 0:2 (2:6, 2:6)",8.85,1.08,none,none,none,none,none,none
+49,ATP Buenos Aires,argentina,2014-02-08,Melzer G.,Dellien H.,"Final result 2:0 (6:2, 6:4)",1.35,3.35,none,none,none,none,none,none
+50,ATP Buenos Aires,argentina,2014-02-08,Souto D.,Bellucci T. ,"Bellucci T. retired (4:6, 4:2)",5.91,1.15,none,none,none,none,none,none
+51,ATP Buenos Aires,argentina,2014-02-08,Robert S.,Olivo R. ,"Robert S. retired (7:5, 64:7, 1:5)",1.40,3.06,none,none,none,none,none,none
+52,ATP Buenos Aires,argentina,2014-02-08,Stadler S.,Bagnis F.,"Final result 2:1 (1:6, 6:4, 6:1)",7.38,1.11,none,none,none,none,none,none
+53,ATP Buenos Aires,argentina,2014-02-08,Giannessi A.,Ramirez-H.R. ,Giannessi A. retired (0:5),3.05,1.41,none,none,none,none,none,none
+54,ATP Buenos Aires,argentina,2014-02-08,Salamanca C.,Monroe N.,"Final result 0:2 (4:6, 4:6)",1.19,5.07,none,none,none,none,none,none
+55,ATP Buenos Aires,argentina,2014-02-08,Ghem A.,Andreozzi G.,"Final result 1:2 (6:1, 4:6, 3:6)",3.01,1.42,none,none,none,none,none,none
+56,ATP Buenos Aires,argentina,2014-02-08,Riba P.,Clezar G.,"Final result 0:2 (3:6, 1:6)",1.84,2.02,none,none,none,none,none,none
+57,ATP Buenos Aires,argentina,2014-02-08,Trungelliti M.,Lama G.,"Final result 2:1 (2:6, 6:4, 6:2)",1.82,2.05,none,none,none,none,none,none
+58,ATP Buenos Aires,argentina,2014-02-08,Romboli F.,Gonzalez M.,"Final result 0:2 (4:6, 2:6)",3.08,1.40,none,none,none,none,none,none
