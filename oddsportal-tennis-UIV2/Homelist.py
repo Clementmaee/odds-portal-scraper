@@ -143,44 +143,52 @@ class Homelist():
         # scrape_gamesofleagues(True)
         Leaguelisttoscape=cols.to_dict(orient='records')
         if do_verbose_output is True:
-            print("\n Done scraping the list of leagues. Start scraping tournaments of each league:")
             print("\n There are data of leagues:")
             for i in range(len(Leaguelisttoscape)):
                 output_str = str(i+1)+": "+ Leaguelisttoscape[i]['country'] +", " + Leaguelisttoscape[i]['league'] + "; "+Leaguelisttoscape[i]['country']
                 print(output_str)
+        print("\n Done scraping the list of leagues.")
 
-        while True:
-            try:
-                strinput = int(input("Please select the serial number of league, 0 for all:"))
-            except ValueError:
-                print("input is incorrect, please input again:")
-                continue
+        scraping_tournaments  = True # flag: whether scrape tournaments
+        while scraping_tournaments:
+            scraping_tournaments_input = input("Continue to scrape the tournaments of leagues? Y for yes, N for no:")
+            if scraping_tournaments_input is "Y":
+                scraping_tournaments=True
+                while True:
+                    try:
+                        strinput = int(input("Please select the serial number of league, 0 for all:"))
+                    except ValueError:
+                        print("input is incorrect, please input again:")
+                        continue
+                    else:
+                        if strinput not in range(len(Leaguelisttoscape)+1):
+                            print("input is incorrect, please input again:")
+                            continue
+                        elif strinput is 0:
+                            # scape all leagues
+                            output_str = "Start scraping All Leagues of the " + self.league["sports"] + "..."
+                            print(output_str)
+                            # for row_league_dict in Leaguelisttoscape:
+                            #     self.scrape_gamesofleagues(row_league_dict, True)
+                            # test_loop for bug detection, formal code should use the loop shown above
+                            # for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
+                            for lpindex_Leaguelisttoscape in range(151,len(Leaguelisttoscape)):
+                                self.scrape_gamesofleagues(Leaguelisttoscape[lpindex_Leaguelisttoscape], True,True)
+                            print("scraping all")
+                            break
+                        else:
+                            # scrape selected league
+                            output_str = "Selected League to be scraped is " + Leaguelisttoscape[strinput-1]['league']
+                            print(output_str)
+                            self.scrape_gamesofleagues(Leaguelisttoscape[strinput-1], True,False)
+                            break
+                print("Finish scraping the specified data.")
+            elif scraping_tournaments_input is "N":
+                scraping_tournaments=False
+                break
             else:
-                if strinput not in range(len(Leaguelisttoscape)+1):
-                    print("input is incorrect, please input again:")
-                    continue
-                else:
-                    break
-
-
-
-
-        # scape league(s)
-        if strinput is 0:
-            # scape all leagues
-            output_str = "Start scraping All Leagues of the " + self.league["sports"] + "..."
-            print(output_str)
-            # for row_league_dict in Leaguelisttoscape:
-            #     self.scrape_gamesofleagues(row_league_dict, True)
-            # test_loop for bug detection, formal code should use the loop shown above
-            # for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
-            for lpindex_Leaguelisttoscape in range(151,len(Leaguelisttoscape)):
-                self.scrape_gamesofleagues(Leaguelisttoscape[lpindex_Leaguelisttoscape], True,True)
-        else:
-            # scrape selected league
-            output_str = "Selected League to be scraped is " + Leaguelisttoscape[strinput-1]['league']
-            print(output_str)
-            self.scrape_gamesofleagues(Leaguelisttoscape[strinput-1], True,False)
+                print("input is incorrect, please input again.")
+                scraping_tournaments=True
 
         if do_verbose_output is True:
             output_str = "Finish scraping all the data.Please close the window."
