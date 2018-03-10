@@ -1,0 +1,491 @@
+1519750439373	geckodriver	INFO	geckodriver 0.19.1
+1519750439379	geckodriver	INFO	Listening on 127.0.0.1:54488
+1519750442539	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.1hB7gt55sRdP"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519750444292	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519750449763	Marionette	INFO	Listening on port 54500
+1519750449894	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 588, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1420, Chrome_ChildThread] WARNING: pipe error: 1[0C9h:i lfd 20132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_w[Parent 588, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15660, *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519750486937	geckodriver	INFO	geckodriver 0.19.1
+1519750486943	geckodriver	INFO	Listening on 127.0.0.1:54599
+1519750490012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.A9lI5cbh8ocu"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519750491158	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519750495789	Marionette	INFO	Listening on port 54612
+1519750496264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Parent 22988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 22988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18608, Chrome_ChildThread] WARNING: pipe error:[Child 4868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4868, Chrome_ChildThread] WARNING: pipe error: 109: file [Parent 22988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25316, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ata\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 22012, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3296, Chrome_ChilJavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Parent 22012, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21936, C[Parent 22012, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Child 18352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18352, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519753704306	geckodriver	INFO	geckodriver 0.19.1
+1519753704311	geckodriver	INFO	Listening on 127.0.0.1:59813
+1519753707372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.XFbRT7ETETKn"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519753709328	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519753715736	Marionette	INFO	Listening on port 59822
+1519753716835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript error: chrome://browser/content/preferences/languages.xul, line 1: ReferenceError: gLanguagesDialog is not defined
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Child 2780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21[644, Chrome_ChildThreadC] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519759670530	geckodriver	INFO	geckodriver 0.19.1
+1519759670540	geckodriver	INFO	Listening on 127.0.0.1:50007
+1519759674671	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.NGCpxa0eWlZL"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519759689333	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519759706117	Marionette	INFO	Listening on port 50017
+1519759713127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Parent 5496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common[Child /ipc_13920chan, Chromnel_we_Chiin.ccldThr, linead] e 34WARNI6
+NG: pi[Child 15868, Chpe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/[Child 12432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12432, Chro[GPU 3760, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519762787118	geckodriver	INFO	geckodriver 0.19.1
+1519762787124	geckodriver	INFO	Listening on 127.0.0.1:53931
+1519762790308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.2k7KlNMI0RUb"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519762791742	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519762797588	Marionette	INFO	Listening on port 53939
+1519762797693	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13376, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src[Ch/chrome/common/ipc_channiel_wild 5796, Chn.cc, line 346
+rome_ChildThr[Child ead] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co[Child 10492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10492, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Child 16604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16604, Chrome_Chi[Child 14576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14576, Chrome_ChildThread] WARNING: pipe error: 1[Child 10828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build[GPU 11452,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519763473976	geckodriver	INFO	geckodriver 0.19.1
+1519763473984	geckodriver	INFO	Listening on 127.0.0.1:56458
+1519763477088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.Muim1Wp0wSGc"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519763478814	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519763484224	Marionette	INFO	Listening on port 56467
+1519763485724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Child 8680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8680, Chrome_Child[Child 16932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9872, Chrome_ChildThread] WARNING: p
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519764688977	Marionette	INFO	Listening on port 49307
+1519764689479	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Parent 13116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14264, Chrome_ChildTh*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519764718365	geckodriver	INFO	geckodriver 0.19.1
+1519764718371	geckodriver	INFO	Listening on 127.0.0.1:49400
+1519764721664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.rpzv4YRE6xH0"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519764722508	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519764727293	Marionette	INFO	Listening on port 49408
+1519764727504	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Parent 15848, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/commo1519764857685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.cD9EyA0ydUNP"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519764859294	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519764864200	Marionette	INFO	Listening on port 49537
+1519764865229	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript error: https://advert.livesportmedia.eu/rotating-advert/right.php?id=873926&type=JS, line 6: ReferenceError: $ is not defined
+[Parent 17044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17044, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17748, Chrome_ChildThread] WARNING: pipe [eCrhror: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519771809976	geckodriver	INFO	geckodriver 0.19.1
+1519771809981	geckodriver	INFO	Listening on 127.0.0.1:58787
+1519771813042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.KAt9sfV6KKdB"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519771813776	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519771817836	Marionette	INFO	Listening on port 58795
+1519771818302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+1519771857633	geckodriver	INFO	geckodriver 0.19.1
+1519771857638	geckodriver	INFO	Listening on 127.0.0.1:58900
+1519771860721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.ogXyz8EmbIHe"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519771861678	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519771866189	Marionette	INFO	Listening on port 58908
+1519771866513	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Parent 9076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3860, Ch[Child 14668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14668, Chro[Child 17776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chro*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 16996, Chrome_ChildThread] WARNI
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519772201948	geckodriver	INFO	geckodriver 0.19.1
+1519772201955	geckodriver	INFO	Listening on 127.0.0.1:59023
+1519772205023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.PWdc5RLVMw7a"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519772205902	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519772209322	Marionette	INFO	Listening on port 59032
+1519772210300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+1519772966110	geckodriver	INFO	geckodriver 0.19.1
+1519772966116	geckodriver	INFO	Listening on 127.0.0.1:49169
+1519772969193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.RsIrZByJQRzY"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519772969996	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519772973405	Marionette	INFO	Listening on port 49177
+1519772974447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Child 12760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12760, Chrom[Child 11952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11952, Chrome_ChildTh[GPU 17128,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+bled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519773860078	Marionette	INFO	Listening on port 60642
+1519773860284	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript error: https://advert.livesportmedia.eu/rotating-advert/right.php?id=873926&type=JS, line 6: ReferenceError: $ is not defined
+[Child 18528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/com[Chimon/ipc_cldhannel_win.c 15880c, li, Chrone 346
+me_Chi[ChldThrild ead] 18528W,ARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/sr[Child 10028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10028, Ch[GPU 17528, Chrome_ChildThread] WARNING: pipe
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519774916629	geckodriver	INFO	geckodriver 0.19.1
+1519774916635	geckodriver	INFO	Listening on 127.0.0.1:55803
+1519774919683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.OFlhl7gWChfT"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519774920456	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519774924750	Marionette	INFO	Listening on port 55811
+1519774925165	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+1519776090597	geckodriver	INFO	geckodriver 0.19.1
+1519776090603	geckodriver	INFO	Listening on 127.0.0.1:51203
+1519776093663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.llJZh1hxvGew"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519776094430	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519776104209	geckodriver	INFO	geckodriver 0.19.1
+1519776104214	geckodriver	INFO	Listening on 127.0.0.1:51221
+1519776107304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.FSKCJWlnR9QS"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519776108871	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519776113275	Marionette	INFO	Listening on port 51229
+1519776113588	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+1519778691787	geckodriver	INFO	geckodriver 0.19.1
+1519778691792	geckodriver	INFO	Listening on 127.0.0.1:63048
+1519778694878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.ipof4SVHodwD"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519778695720	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519778700009	Marionette	INFO	Listening on port 63056
+1519778700311	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+[Child 15896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/ch[Child 136r9o2, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8012, Chrome_ChildTh[GPU 8292,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519779044396	geckodriver	INFO	geckodriver 0.19.1
+1519779044402	geckodriver	INFO	Listening on 127.0.0.1:63435
+1519779047486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\manin\\AppData\\Local\\Temp\\rust_mozprofile.LN98SEDqHjxF"
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519779048418	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\manin\AppData\Local\openvr\openvrpaths.vrpath
+1519779053028	Marionette	INFO	Listening on port 63443
+1519779053329	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
+JavaScript warning: http://www.oddsportal.com/res/x/global-180227154450.js, line 1: unreachable code after return statement
