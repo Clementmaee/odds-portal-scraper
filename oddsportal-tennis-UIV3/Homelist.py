@@ -67,6 +67,7 @@ class Homelist():
                 self.browser.get(leagues_url)
                 break
             except:
+                self.browser.refresh()
                 pass
         # sleep(1)
         while True:
@@ -189,6 +190,7 @@ class Homelist():
                 self.browser.get(league_url)
                 break
             except:
+                self.browser.refresh()
                 pass
         # sleep(1)
         years_tbl = self.browser.find_element_by_css_selector(".main-menu2.main-menu-gray")
@@ -264,6 +266,7 @@ class Homelist():
                             self.browser.get(league_url)
                             break
                         except:
+                            self.browser.refresh()
                             pass
                     # sleep(1)
                     # how many pages
@@ -291,6 +294,7 @@ class Homelist():
                                     self.browser.get(league_url)
                                     break
                                 except:
+                                    self.browser.refresh()
                                     pass
                             # sleep(1)
                         tournament_tbl = self.browser.find_element_by_id("tournamentTable")
@@ -630,6 +634,7 @@ class Homelist():
                 self.browser.get(game_url_curr)
                 break
             except:
+                self.browser.refresh()
                 pass
         # sleep(1)
         # get result
@@ -712,8 +717,8 @@ class Homelist():
                                             odds_return[3]=ahodds_1
                                             odds_return[4]=ahodds_2
                                             distance=currentdistance
-                        else:
-                            print("no AH table in "+game_url_curr)
+                        # else:
+                        #     print("no AH table in "+game_url_curr)
 
 
 
@@ -749,15 +754,15 @@ class Homelist():
                                 td_row_ouodds_rows = row_ouodds_rows.select('td')
                                 if len(td_row_ouodds_rows)!=0:
                                     if ("Pinnacle" == td_row_ouodds_rows[0].find_all(class_='name')[0].string) and (td_row_ouodds_rows[4].string!="-"):
-                                        ahodds_1=td_row_ouodds_rows[2].string
-                                        ahodds_2=td_row_ouodds_rows[3].string
-                                        currentdistance=(float(ahodds_1)-2)**2+(float(ahodds_2)-2)**2
+                                        ouodds_1=td_row_ouodds_rows[2].string
+                                        ouodds_2=td_row_ouodds_rows[3].string
+                                        currentdistance=(float(ouodds_1)-2)**2+(float(ouodds_2)-2)**2
                                         if currentdistance<distance:
                                             odds_return[2]=td_row_ouodds_rows[1].string
-                                            odds_return[3]=ahodds_1
-                                            odds_return[4]=ahodds_2
+                                            odds_return[3]=ouodds_1
+                                            odds_return[4]=ouodds_2
                                             distance=currentdistance
-                        else:
-                            print("no OU table in "+game_url_curr)
+                        # else:
+                        #     print("no OU table in "+game_url_curr)
 
         return odds_return

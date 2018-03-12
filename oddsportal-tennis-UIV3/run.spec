@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['run.py'],
-             pathex=['E:\\oddsportal-tennis-UI'],
+             pathex=['E:\\OneDrive\\Document\\GitHub\\oddsportal-tennis-UIV3'],
              binaries=[],
              datas=[],
              hiddenimports=[],

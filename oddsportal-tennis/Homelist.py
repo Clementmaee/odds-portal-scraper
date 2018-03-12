@@ -5,9 +5,10 @@ from os import listdir, altsep, sep, mkdir, getcwd
 from selenium import webdriver
 import pandas as pd
 import datetime
-import csv
+import os
 import re
 from time import sleep
+import shutil
 
 
 class Homelist():
@@ -86,7 +87,7 @@ class Homelist():
                     country = league_url_curr.split("/")[2]
                     league_country.append(country)
                     league_name.append(league_name_curr)
-                    league_address.append(league_url_curr)
+                    league_address.append( self.league["urls"]+league_url_curr)
                     print("...", end="")
 
         # save name, country, url of every league in csv
@@ -99,35 +100,71 @@ class Homelist():
         cols = pd.DataFrame(columns = Columslist)
         for id in Columslist:
             cols[id] = datas[id]
-        LeagueList_path=self.currpath+sep+'LeagueList.csv'
-        LeagueList_path = 'LeagueList.csv'
+
+        result_dir=self.currpath+sep+"scraping_results"
+        if not(os.path.exists(result_dir)):
+            os.mkdir(result_dir)
+        LeagueList_path=result_dir+sep+'LeagueList.csv'
         lealist=open(LeagueList_path,"w")
         cols.to_csv(LeagueList_path)
         lealist.close()
         self.league_list=cols
         # scrape_gamesofleagues(True)
+        Leaguelisttoscape=cols.to_dict(orient='records')
         if do_verbose_output is True:
             print("\n Done scraping the list of leagues. Start scraping tournaments of each league:")
-        Leaguelisttoscape=cols.to_dict(orient='records')
-        # for row_league_dict in Leaguelisttoscape:
-        #     self.scrape_gamesofleagues(row_league_dict, True)
-        # test_loop for bug detection, formal code should use the loop shown above
-        for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
-            self.scrape_gamesofleagues(Leaguelisttoscape[lpindex_Leaguelisttoscape], True)
+            print("\n There are data of leagues:")
+            for i in range(len(Leaguelisttoscape)):
+                output_str = str(i+1)+": "+ Leaguelisttoscape[i]['league'] + "; "+Leaguelisttoscape[i]['country']
+                print(output_str)
 
+        while True:
+            try:
+                strinput = int(input("Please select the serial number of league, 0 for all:"))
+            except ValueError:
+                print("input is incorrect, please input again:")
+                continue
+            else:
+                if strinput not in range(len(Leaguelisttoscape)+1):
+                    print("input is incorrect, please input again:")
+                    continue
+                else:
+                    break
+
+        # empty the result folder:
+        result_dir=self.currpath+sep+"scraping_results"
+        shutil.rmtree(result_dir)
+        os.mkdir(result_dir)
+
+        # scape league(s)
+        if strinput is 0:
+            # scape all leagues
+            output_str = "Start scraping All Leagues of the " + self.league["sports"] + "..."
+            print(output_str)
+            # for row_league_dict in Leaguelisttoscape:
+            #     self.scrape_gamesofleagues(row_league_dict, True)
+            # test_loop for bug detection, formal code should use the loop shown above
+            # for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
+            for lpindex_Leaguelisttoscape in range(100,len(Leaguelisttoscape)):
+                self.scrape_gamesofleagues(Leaguelisttoscape[lpindex_Leaguelisttoscape], True,True)
+        else:
+            # scrape selected league
+            output_str = "Selected League to be scraped is " + Leaguelisttoscape[strinput-1]['league']
+            print(output_str)
+            self.scrape_gamesofleagues(Leaguelisttoscape[strinput-1], True,False)
 
         if do_verbose_output is True:
             output_str = "Finish scraping all the data."
             print(output_str)
         self.browser.close()
 
-    def scrape_gamesofleagues(self, league_dict, do_verbose_output=False):
+    def scrape_gamesofleagues(self, league_dict, do_verbose_output=False, do_scrape_all=True):
         # get all the games and urls of the league
         if do_verbose_output is True:
-            output_str = "Start scraping games of " + league_dict["league"] + "..."
+            output_str = "Start scraping League " + league_dict["league"] + "..."
             print(output_str)
         # get url of the league
-        league_url = self.league["urls"]+league_dict["url"]
+        league_url = league_dict["url"]
         self.browser.get(league_url)
         sleep(1)
         years_tbl = self.browser.find_element_by_css_selector(".main-menu2.main-menu-gray")
@@ -137,129 +174,168 @@ class Homelist():
         years_tbl_rows=years_tbl_soup.select("a") #  find all "td" directly
         year_index=[]
         year_url=[]
+        if do_scrape_all is True:
+            # 抓取所有年份
+            print("scraping data from 2011")
+            year_from = 2010
+            year_end = datetime.datetime.now().year
+        else:
+            # 抓取选定年份
+            while True:
+                try:
+                    year_from = int(input("scrape the data after year: "))
+                except ValueError:
+                    print("input is incorrect, please input again:")
+                    continue
+                else:
+                    break
+            while True:
+                try:
+                    year_end = int(input("scrape the data no later than year of: "))
+                except ValueError:
+                    print("input is incorrect, please input again:")
+                    continue
+                else:
+                    if year_end > year_from:
+                        break
+                    else:
+                        print("end year is earlier than the starting year, please input again:")
+                        continue
+            output_str = "the years to be scraped is from " + str(year_from+1)+ " to " + str(year_end)
+            print(output_str)
+
+        # 生成字典链表记录年份信息
         for lpindex_years_tbl_rows in range(len(years_tbl_rows)):
             row=years_tbl_rows[lpindex_years_tbl_rows]
         # for row in years_tbl_rows:
-            year_name_curr=row.string
-            year_current=int(year_name_curr)
-            if year_current>2010:
-                y_curr=row.get("href")
-                year_url.append(y_curr)
-                year_index.append(year_name_curr)
-                tournament_league=[]
-                tournament_country=[]
-                tournament_date=[]
-                tournament_player1=[]
-                tournament_player2=[]
-                tournament_result=[]
-                tournament_HomeAwayodd01=[]
-                tournament_HomeAwayodd02=[]
-                tournament_AsianHandicapgames=[]
-                tournament_AsianHandicapodd01=[]
-                tournament_AsianHandicapodd02=[]
-                tournament_OverUndergames=[]
-                tournament_OverUnderodd01=[]
-                tournament_OverUnderodd02=[]
-                tournament_url=[]
-                print("...", end="")
+            year_name_curr=row.text
+            if year_name_curr!="":
+                year_current=int(year_name_curr)
+                if year_current>year_from and year_current<=year_end:
+                    y_curr=row.get("href")
+                    year_url.append(y_curr)
+                    year_index.append(year_name_curr)
+                    tournament_league=[]
+                    tournament_country=[]
+                    tournament_date=[]
+                    tournament_player1=[]
+                    tournament_player2=[]
+                    tournament_result=[]
+                    tournament_HomeAwayodd01=[]
+                    tournament_HomeAwayodd02=[]
+                    tournament_AsianHandicapgames=[]
+                    tournament_AsianHandicapodd01=[]
+                    tournament_AsianHandicapodd02=[]
+                    tournament_OverUndergames=[]
+                    tournament_OverUnderodd01=[]
+                    tournament_OverUnderodd02=[]
+                    tournament_url=[]
+                    print("...", end="")
 
-                # scraping games of each year
-                league_url = self.league["urls"]+y_curr
-                self.browser.get(league_url)
-                sleep(1)
-                # how many pages
-                try:
-                    self.browser.find_element_by_id("pagination")
-                except:
-                    pgnum=1
-                else:
-                    pgnum=1
-                    pgnum_tbl = self.browser.find_element_by_id("pagination")
-                    pgnum_html = pgnum_tbl.get_attribute("innerHTML")
-                    pgnum_soup = BeautifulSoup(pgnum_html, "html.parser")
-                    pgnum_rows=pgnum_soup.select("a")
-                    for row in pgnum_rows:
-                        pages=row.get("x-page")
-                        pgnum=max(pgnum,int(pages))
+                    # scraping games of each year
+                    league_url = self.league["urls"]+y_curr
+                    self.browser.get(league_url)
+                    sleep(1)
+                    # how many pages
+                    try:
+                        self.browser.find_element_by_id("pagination")
+                    except:
+                        pgnum=1
+                    else:
+                        pgnum=1
+                        pgnum_tbl = self.browser.find_element_by_id("pagination")
+                        pgnum_html = pgnum_tbl.get_attribute("innerHTML")
+                        pgnum_soup = BeautifulSoup(pgnum_html, "html.parser")
+                        pgnum_rows=pgnum_soup.select("a")
+                        for row in pgnum_rows:
+                            pages=row.get("x-page")
+                            pgnum=max(pgnum,int(pages))
 
-                # get games info on each page:
-                for i in range(1,pgnum+1):
-                    if i>1:
-                        league_url = self.league["urls"]+y_curr+"#/page/"+str(i)
-                        self.browser.get(league_url)
-                        sleep(1)
+                    # get games info on each page:
+                    for i in range(1,pgnum+1):
+                        if i>1:
+                            league_url = self.league["urls"]+y_curr+"#/page/"+str(i)
+                            self.browser.get(league_url)
+                            sleep(1)
 
-                    tournament_tbl = self.browser.find_element_by_id("tournamentTable")
-                    tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
-                    tournament_tbl_soup = BeautifulSoup(tournament_tbl_html, "html.parser")
-                    significant_rows = tournament_tbl_soup(self.is_tennis_match_or_date)
-                    current_date_str = None
-                    for row in significant_rows:
-                        if self.is_date(row) is True:
-                            current_date_str = self.get_date(row)
-                        elif self.is_date_string_supported(current_date_str) == False:
-                            # not presently supported 今天昨天等时间变量待识别
-                            continue
-                        else:  # is a tennis match
-                            # this_match = TennisMatch()
-                            game_date = self.getmonthdate(current_date_str)    #时间格式考虑修改
-                            participants = self.get_participants(row)
-                            scores = self.get_scores(row)
-                            game_url=row.a.get("href")
-                            odds = self.get_odds(game_url)
-                            tournament_url.append(self.league["urls"]+game_url)
-                            tournament_country.append(league_dict["country"])
-                            tournament_league.append(league_dict["league"])
-                            tournament_date.append(game_date)
-                            tournament_player1.append(participants[0])
-                            tournament_player2.append(participants[1])
-                            tournament_result.append(odds[8])
-                            tournament_HomeAwayodd01.append(odds[0])
-                            tournament_HomeAwayodd02.append(odds[1])
-                            tournament_AsianHandicapgames.append(odds[2])
-                            tournament_AsianHandicapodd01.append(odds[3])
-                            tournament_AsianHandicapodd02.append(odds[4])
-                            tournament_OverUndergames.append(odds[5])
-                            tournament_OverUnderodd01.append(odds[6])
-                            tournament_OverUnderodd02.append(odds[7])
-                            # currenttournamentcol=pd.DataFrame({"year":current_date_str, "country":league_dict["country"],"league":league_dict["league"],"game":game_url})
-                            # currenttournamentcol=pd.DataFrame(data=[current_date_str,league_dict["country"],league_dict["league"],game_url],columns=list["year", "country","league","game"])
-                            # currenttournamentcol=pd.DataFrame(data=[current_date_str,league_dict["country"],league_dict["league"],game_url],columns=["year", "country","league","game"])
-                            # currenttournamentcol=pd.DataFrame("year": current_date_str, "country": league_dict["country"],"league":league_dict["league"], "game": game_url)
-                    # currenttournamentcol=pd.DataFrame({"year": [current_date_str], "country": [league_dict["country"]],"league":[league_dict["league"]], "game": [game_url]})
-                    # self.wholetournamentrecords =self.wholetournamentrecords.append(currenttournamentcol)
-                            # self.db_manager.add_tennis_match(self.league, url, this_match)
+                        tournament_tbl = self.browser.find_element_by_id("tournamentTable")
+                        tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
+                        tournament_tbl_soup = BeautifulSoup(tournament_tbl_html, "html.parser")
+                        try:
+                            significant_rows = tournament_tbl_soup(self.is_tennis_match_or_date)
+                        except:
+                            break
+                        else:
+                            current_date_str = None
+                            for row in significant_rows:
+                                if self.is_date(row) is True:
+                                    current_date_str = self.get_date(row)
+                                elif self.is_date_string_supported(current_date_str) == False:
+                                    # not presently supported 今天昨天等时间变量待识别
+                                    continue
+                                else:  # is a tennis match
+                                    # this_match = TennisMatch()
+                                    game_date = self.getmonthdate(current_date_str)    #时间格式考虑修改
+                                    participants = self.get_participants(row)
+                                    scores = self.get_scores(row)
+                                    game_url=row.a.get("href")
+                                    odds = self.get_odds(game_url)
+                                    tournament_url.append(self.league["urls"]+game_url)
+                                    tournament_country.append(league_dict["country"])
+                                    tournament_league.append(league_dict["league"])
+                                    tournament_date.append(game_date)
+                                    tournament_player1.append(participants[0])
+                                    tournament_player2.append(participants[1])
+                                    tournament_result.append(odds[8])
+                                    tournament_HomeAwayodd01.append(odds[0])
+                                    tournament_HomeAwayodd02.append(odds[1])
+                                    tournament_AsianHandicapgames.append(odds[2])
+                                    tournament_AsianHandicapodd01.append(odds[3])
+                                    tournament_AsianHandicapodd02.append(odds[4])
+                                    tournament_OverUndergames.append(odds[5])
+                                    tournament_OverUnderodd01.append(odds[6])
+                                    tournament_OverUnderodd02.append(odds[7])
+                                    # currenttournamentcol=pd.DataFrame({"year":current_date_str, "country":league_dict["country"],"league":league_dict["league"],"game":game_url})
+                                    # currenttournamentcol=pd.DataFrame(data=[current_date_str,league_dict["country"],league_dict["league"],game_url],columns=list["year", "country","league","game"])
+                                    # currenttournamentcol=pd.DataFrame(data=[current_date_str,league_dict["country"],league_dict["league"],game_url],columns=["year", "country","league","game"])
+                                    # currenttournamentcol=pd.DataFrame("year": current_date_str, "country": league_dict["country"],"league":league_dict["league"], "game": game_url)
+                            # currenttournamentcol=pd.DataFrame({"year": [current_date_str], "country": [league_dict["country"]],"league":[league_dict["league"]], "game": [game_url]})
+                            # self.wholetournamentrecords =self.wholetournamentrecords.append(currenttournamentcol)
+                                    # self.db_manager.add_tennis_match(self.league, url, this_match)
 
-                # save a whole year's tournaments data
-                Columslist=["League","country","date","player1","player2","result", "HomeAwayodd01","HomeAwayodd02","AHgames" ,"AHodd01","AHodd02","OUgames","OUodds1","OUodds2","tournament_url"]
-                datas={}
-                datas[Columslist[0]]=tournament_league
-                datas[Columslist[1]]=tournament_country
-                datas[Columslist[2]]=tournament_date
-                datas[Columslist[3]]=tournament_player1
-                datas[Columslist[4]]=tournament_player2
-                datas[Columslist[5]]=tournament_result
-                datas[Columslist[6]]=tournament_HomeAwayodd01
-                datas[Columslist[7]]=tournament_HomeAwayodd02
-                datas[Columslist[8]]=tournament_AsianHandicapgames
-                datas[Columslist[9]]=tournament_AsianHandicapodd01
-                datas[Columslist[10]]=tournament_AsianHandicapodd02
-                datas[Columslist[11]]=tournament_OverUndergames
-                datas[Columslist[12]]=tournament_OverUnderodd01
-                datas[Columslist[13]]=tournament_OverUnderodd02
-                datas[Columslist[14]]=tournament_url
+                        # save a whole year's tournaments data
+                        Columslist=["League","country","date","player1","player2","result", "HomeAwayodd01","HomeAwayodd02","AHgames" ,"AHodd01","AHodd02","OUgames","OUodds1","OUodds2","tournament_url"]
+                        datas={}
+                        datas[Columslist[0]]=tournament_league
+                        datas[Columslist[1]]=tournament_country
+                        datas[Columslist[2]]=tournament_date
+                        datas[Columslist[3]]=tournament_player1
+                        datas[Columslist[4]]=tournament_player2
+                        datas[Columslist[5]]=tournament_result
+                        datas[Columslist[6]]=tournament_HomeAwayodd01
+                        datas[Columslist[7]]=tournament_HomeAwayodd02
+                        datas[Columslist[8]]=tournament_AsianHandicapgames
+                        datas[Columslist[9]]=tournament_AsianHandicapodd01
+                        datas[Columslist[10]]=tournament_AsianHandicapodd02
+                        datas[Columslist[11]]=tournament_OverUndergames
+                        datas[Columslist[12]]=tournament_OverUnderodd01
+                        datas[Columslist[13]]=tournament_OverUnderodd02
+                        datas[Columslist[14]]=tournament_url
 
-                cols = pd.DataFrame(columns = Columslist)
-                for id in Columslist:
-                    cols[id] = datas[id]
-                tournament_path=getcwd()+sep+league_dict["country"]+" "+league_dict["league"]+" "+year_name_curr+' data.csv'
-                tournamentlistcsv=open(tournament_path,"w")
-                cols.to_csv(tournament_path)
-                tournamentlistcsv.close()
+                        cols = pd.DataFrame(columns = Columslist)
+                        for id in Columslist:
+                            cols[id] = datas[id]
+
+                        # save the data in results_folder
+                        result_dir=self.currpath+sep+"scraping_results"
+                        if not(os.path.exists(result_dir)):
+                            os.mkdir(result_dir)
+                        tournament_path=result_dir+sep+league_dict["country"]+" "+league_dict["league"]+" "+year_name_curr+' data.csv'
+                        tournamentlistcsv=open(tournament_path,"w")
+                        cols.to_csv(tournament_path)
+                        tournamentlistcsv.close()
 
         # save the urls of each year for this league.
-        year_index=[]
-        year_url=[]
         Columslist=["year_index","year_url"]
         datas={}
         datas[Columslist[0]]=year_index
@@ -267,17 +343,19 @@ class Homelist():
         cols = pd.DataFrame(columns = Columslist)
         for id in Columslist:
             cols[id] = datas[id]
-        LeagueyearList_path=getcwd()+sep+"year list of "+league_dict["league"]+'.csv'
+
+        # save the data in results_folder
+        result_dir=self.currpath+sep+"scraping_results"
+        if not(os.path.exists(result_dir)):
+            os.mkdir(result_dir)
+        LeagueyearList_path=result_dir+sep+"year list of "+league_dict["league"]+'.csv'
         ylist=open(LeagueyearList_path,"w")
         cols.to_csv(LeagueyearList_path)
         ylist.close()
         # self.league_list=cols
 
-
         if do_verbose_output is True:
-            print("Done scraping all the tournaments of the current league, and saving data to .csv file . Scaping the next one")
-
-
+            print("Done scraping all the tournaments of current league, and saving data to .csv file . Scaping the next one")
 
     def is_leagues(self, tag):
         """
@@ -527,17 +605,17 @@ class Homelist():
         # scraping the H/A odds
         # odds_tbl=self.browser.find_element_by_id("odds-data-table").find_element_by_partial_link_text("Pinnacle")
         # odds_tbl=self.browser.find_element_by_partial_link_text("Pinnacle")
-        odds_tbl=self.browser.find_element_by_id("odds-data-table")
-        odds_html = odds_tbl.get_attribute("innerHTML")
-        odds_soup = BeautifulSoup(odds_html, "html.parser")
-        odds_rows = odds_soup.select('.lo')
-        for row in odds_rows:
-            td_rows = row.select('td')
-            if len(td_rows)!=0:
-                # for td_row in td_rows:
-                if "Pinnacle" == td_rows[0].find_all(class_='name')[0].string:
-                    HAodds_1=td_rows[1].string
-                    HAodds_2=td_rows[2].string
+        haodds_tbl=self.browser.find_element_by_id("odds-data-table")
+        haodds_html = haodds_tbl.get_attribute("innerHTML")
+        haodds_soup = BeautifulSoup(haodds_html, "html.parser")
+        haodds_rows = haodds_soup.select('.lo')
+        for row_haodds_rows in haodds_rows:
+            td_rows_haodds_rows = row_haodds_rows.select('td')
+            if len(td_rows_haodds_rows)!=0:
+                # for td_rows_haodds_rows in row_haodds_rows:
+                if ("Pinnacle" == td_rows_haodds_rows[0].find_all(class_='name')[0].string) and (td_rows_haodds_rows[3].string!="-"):
+                    HAodds_1=td_rows_haodds_rows[1].string
+                    HAodds_2=td_rows_haodds_rows[2].string
                     odds_return[0]=HAodds_1
                     odds_return[1]=HAodds_2
                     break
@@ -560,7 +638,7 @@ class Homelist():
             # unfold all the "games" tables
             for row_AHodds_games in AHodds_games:
                 ahdicap_name=row_AHodds_games.text
-                if " Games" in ahdicap_name:
+                if (" Games" in ahdicap_name) and ("Asian handicap" in ahdicap_name):
                     row_AHodds_games.click()
             sleep(1)
 
@@ -573,10 +651,10 @@ class Homelist():
             for row_ahodds_rows in ahodds_rows: # subwhite tables
                 td_row_ahodds_rows = row_ahodds_rows.select('td')
                 if len(td_row_ahodds_rows)!=0:
-                    if ("Pinnacle" == td_row_ahodds_rows[0].find_all(class_='name')[0].string):
+                    if ("Pinnacle" == td_row_ahodds_rows[0].find_all(class_='name')[0].string) and (td_row_ahodds_rows[4].string!="-"):
                         AHodds_1=td_row_ahodds_rows[2].string
                         AHodds_2=td_row_ahodds_rows[3].string
-                        currentdistance=(float(AHodds_1)-2)**2+(float(AHodds_1)-2)**2
+                        currentdistance=(float(AHodds_1)-2)**2+(float(AHodds_2)-2)**2
                         if currentdistance<distance:
                             odds_return[2]=td_row_ahodds_rows[1].string
                             odds_return[3]=AHodds_1
@@ -597,7 +675,7 @@ class Homelist():
             # unfold all the "games" tables
             for row_OUodds_games in OUodds_games:
                 oudicap_name=row_OUodds_games.text
-                if " Games" in oudicap_name:
+                if (" Games" in oudicap_name) and ("Over/Under " in oudicap_name):
                     row_OUodds_games.click()
             sleep(1)
 
@@ -610,7 +688,7 @@ class Homelist():
             for row_ouodds_rows in ouodds_rows: # subwhite tables
                 td_row_ouodds_rows = row_ouodds_rows.select('td')
                 if len(td_row_ouodds_rows)!=0:
-                    if "Pinnacle" == td_row_ouodds_rows[0].find_all(class_='name')[0].string:
+                    if ("Pinnacle" == td_row_ouodds_rows[0].find_all(class_='name')[0].string) and (td_row_ouodds_rows[4].string!="-"):
                         OUodds_1=td_row_ouodds_rows[2].string
                         OUodds_2=td_row_ouodds_rows[3].string
                         currentdistance=(float(OUodds_1)-2)**2+(float(OUodds_2)-2)**2

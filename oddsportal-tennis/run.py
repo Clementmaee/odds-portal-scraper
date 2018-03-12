@@ -49,10 +49,10 @@ league_scraper.scrape_leagues(True)
 #                 #     os.mkdir('E:\test')
 #
 
-
-tennis_match_path = "." + sep + "leagues" + sep + "tennis"
-
-initialize_db = True
+#
+# tennis_match_path = "." + sep + "leagues" + sep + "tennis"
+#
+# initialize_db = True
 #
 # for possible_file in listdir(tennis_match_path):
 #     if isfile(join(tennis_match_path, possible_file)):

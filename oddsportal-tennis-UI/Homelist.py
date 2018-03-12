@@ -25,7 +25,10 @@ class Homelist():
             initialize_json (bool): Should the database be initialized?
         """
 
-        self.browser = webdriver.Chrome("./chromedriver/chromedriver.exe")
+        # self.browser = webdriver.Firefox()
+        self.browser = webdriver.Chrome()
+        self.browser.implicitly_wait(9)
+        self.browser.set_page_load_timeout(10)
         self.league = self.parse_json(current_set)
         self.league_list = pd.DataFrame(["league","country","url"])
         # self.wholetournamentcol=["year", "month","date","country","league","player1","player2","results"]
@@ -58,14 +61,31 @@ class Homelist():
 
         # get all the leagues and url
         leagues_url = self.league["urls"]+sep+self.league["sports"]+sep+"results"
-        self.browser.get(leagues_url)
-        sleep(1)
-        self.browser.find_element_by_class_name('user-header-fakeselect').click()
-        sleep(1)
+        # self.browser.get(leagues_url)
+        while True:
+            try:
+                self.browser.get(leagues_url)
+                break
+            except:
+                pass
+        # sleep(1)
+        while True:
+            try:
+                self.browser.find_element_by_class_name('user-header-fakeselect').click()
+                break
+            except:
+                pass
+        # self.browser.find_element_by_class_name('user-header-fakeselect').click()
+        # sleep(1)
         # find the widget defining the "odds formate"
         # self.browser.find_element_by_link_text("EU Odds").click()
-        self.browser.find_element_by_link_text("EU Odds").click()
-        sleep(1)
+        while True:
+            try:
+                self.browser.find_element_by_link_text("EU Odds").click()
+                break
+            except:
+                pass
+        # sleep(1)
 
         # league_tbl = self.browser.find_elements_by_class_name("sport")
         # use find_elements_by_css_selector because is not applicable for compound class names
@@ -112,7 +132,7 @@ class Homelist():
             print("\n Done scraping the list of leagues. Start scraping tournaments of each league:")
             print("\n There are data of leagues:")
             for i in range(len(Leaguelisttoscape)):
-                output_str = str(i+1)+": "+ Leaguelisttoscape[i]['league'] + "; "+Leaguelisttoscape[i]['country']
+                output_str = str(i+1)+": "+ Leaguelisttoscape[i]['country'] +", " + Leaguelisttoscape[i]['league'] + "; "+Leaguelisttoscape[i]['country']
                 print(output_str)
 
         while True:
@@ -130,7 +150,8 @@ class Homelist():
 
         # empty the result folder:
         result_dir=self.currpath+sep+"scraping_results"
-        shutil.rmtree(result_dir)
+        if os.path.exists(result_dir):
+            shutil.rmtree(result_dir)
         os.mkdir(result_dir)
 
         # scape league(s)
@@ -141,8 +162,8 @@ class Homelist():
             # for row_league_dict in Leaguelisttoscape:
             #     self.scrape_gamesofleagues(row_league_dict, True)
             # test_loop for bug detection, formal code should use the loop shown above
-            for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
-            # for lpindex_Leaguelisttoscape in range(0,1):
+            # for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
+            for lpindex_Leaguelisttoscape in range(151,len(Leaguelisttoscape)):
                 self.scrape_gamesofleagues(Leaguelisttoscape[lpindex_Leaguelisttoscape], True,True)
         else:
             # scrape selected league
@@ -162,8 +183,14 @@ class Homelist():
             print(output_str)
         # get url of the league
         league_url = league_dict["url"]
-        self.browser.get(league_url)
-        sleep(1)
+        # self.browser.get(league_url)
+        while True:
+            try:
+                self.browser.get(league_url)
+                break
+            except:
+                pass
+        # sleep(1)
         years_tbl = self.browser.find_element_by_css_selector(".main-menu2.main-menu-gray")
         # get each years url
         years_tbl_html = years_tbl.get_attribute("innerHTML")
@@ -231,8 +258,14 @@ class Homelist():
 
                     # scraping games of each year
                     league_url = self.league["urls"]+y_curr
-                    self.browser.get(league_url)
-                    sleep(1)
+                    # self.browser.get(league_url)
+                    while True:
+                        try:
+                            self.browser.get(league_url)
+                            break
+                        except:
+                            pass
+                    # sleep(1)
                     # how many pages
                     try:
                         self.browser.find_element_by_id("pagination")
@@ -252,9 +285,14 @@ class Homelist():
                     for i in range(1,pgnum+1):
                         if i>1:
                             league_url = self.league["urls"]+y_curr+"#/page/"+str(i)
-                            self.browser.get(league_url)
-                            sleep(1)
-
+                            # self.browser.get(league_url)
+                            while True:
+                                try:
+                                    self.browser.get(league_url)
+                                    break
+                                except:
+                                    pass
+                            # sleep(1)
                         tournament_tbl = self.browser.find_element_by_id("tournamentTable")
                         tournament_tbl_html = tournament_tbl.get_attribute("innerHTML")
                         tournament_tbl_soup = BeautifulSoup(tournament_tbl_html, "html.parser")
@@ -277,6 +315,11 @@ class Homelist():
                                     scores = self.get_scores(row)
                                     game_url=row.a.get("href")
                                     odds = self.get_odds(game_url)
+                                    if "none" in odds:
+                                        odds2 = self.get_odds(game_url)
+                                        for i in range(len(odds)):
+                                            if odds[i] is "none":
+                                                odds[i]=odds2[i]
                                     tournament_url.append(self.league["urls"]+game_url)
                                     tournament_country.append(league_dict["country"])
                                     tournament_league.append(league_dict["league"])
@@ -300,37 +343,37 @@ class Homelist():
                             # self.wholetournamentrecords =self.wholetournamentrecords.append(currenttournamentcol)
                                     # self.db_manager.add_tennis_match(self.league, url, this_match)
 
-                        # save a whole year's tournaments data
-                        Columslist=["League","country","date","player1","player2","result", "HomeAwayodd01","HomeAwayodd02","AHgames" ,"AHodd01","AHodd02","OUgames","OUodds1","OUodds2","tournament_url"]
-                        datas={}
-                        datas[Columslist[0]]=tournament_league
-                        datas[Columslist[1]]=tournament_country
-                        datas[Columslist[2]]=tournament_date
-                        datas[Columslist[3]]=tournament_player1
-                        datas[Columslist[4]]=tournament_player2
-                        datas[Columslist[5]]=tournament_result
-                        datas[Columslist[6]]=tournament_HomeAwayodd01
-                        datas[Columslist[7]]=tournament_HomeAwayodd02
-                        datas[Columslist[8]]=tournament_AsianHandicapgames
-                        datas[Columslist[9]]=tournament_AsianHandicapodd01
-                        datas[Columslist[10]]=tournament_AsianHandicapodd02
-                        datas[Columslist[11]]=tournament_OverUndergames
-                        datas[Columslist[12]]=tournament_OverUnderodd01
-                        datas[Columslist[13]]=tournament_OverUnderodd02
-                        datas[Columslist[14]]=tournament_url
+                    # save a whole year's tournaments data
+                    Columslist=["League","country","date","player1","player2","result", "HomeAwayodd01","HomeAwayodd02","AHgames" ,"AHodd01","AHodd02","OUgames","OUodds1","OUodds2","tournament_url"]
+                    datas={}
+                    datas[Columslist[0]]=tournament_league
+                    datas[Columslist[1]]=tournament_country
+                    datas[Columslist[2]]=tournament_date
+                    datas[Columslist[3]]=tournament_player1
+                    datas[Columslist[4]]=tournament_player2
+                    datas[Columslist[5]]=tournament_result
+                    datas[Columslist[6]]=tournament_HomeAwayodd01
+                    datas[Columslist[7]]=tournament_HomeAwayodd02
+                    datas[Columslist[8]]=tournament_AsianHandicapgames
+                    datas[Columslist[9]]=tournament_AsianHandicapodd01
+                    datas[Columslist[10]]=tournament_AsianHandicapodd02
+                    datas[Columslist[11]]=tournament_OverUndergames
+                    datas[Columslist[12]]=tournament_OverUnderodd01
+                    datas[Columslist[13]]=tournament_OverUnderodd02
+                    datas[Columslist[14]]=tournament_url
 
-                        cols = pd.DataFrame(columns = Columslist)
-                        for id in Columslist:
-                            cols[id] = datas[id]
+                    cols = pd.DataFrame(columns = Columslist)
+                    for id in Columslist:
+                        cols[id] = datas[id]
 
-                        # save the data in results_folder
-                        result_dir=self.currpath+sep+"scraping_results"
-                        if not(os.path.exists(result_dir)):
-                            os.mkdir(result_dir)
-                        tournament_path=result_dir+sep+league_dict["country"]+" "+league_dict["league"]+" "+year_name_curr+' data.csv'
-                        tournamentlistcsv=open(tournament_path,"w")
-                        cols.to_csv(tournament_path)
-                        tournamentlistcsv.close()
+                    # save the data in results_folder
+                    result_dir=self.currpath+sep+"scraping_results"
+                    if not(os.path.exists(result_dir)):
+                        os.mkdir(result_dir)
+                    tournament_path=result_dir+sep+league_dict["country"]+" "+league_dict["league"]+" "+year_name_curr+' data.csv'
+                    tournamentlistcsv=open(tournament_path,"w")
+                    cols.to_csv(tournament_path)
+                    tournamentlistcsv.close()
 
         # save the urls of each year for this league.
         Columslist=["year_index","year_url"]
@@ -581,8 +624,14 @@ class Homelist():
         # Home/Away
         game_url_curr=self.league["urls"]+game_url
         # game_url_curr=self.league["urls"]+sep+game_url+sep+'/#home-away;2'
-        self.browser.get(game_url_curr)
-        sleep(1)
+        # self.browser.get(game_url_curr)
+        while True:
+            try:
+                self.browser.get(game_url_curr)
+                break
+            except:
+                pass
+        # sleep(1)
         # get result
         # result_tbl=self.browser.find_element_by_id("result")
         try:
@@ -598,7 +647,9 @@ class Homelist():
             result_soup = BeautifulSoup(result_html, "html.parser").text
         else:
             result_soup="Canceled"
-        odds_return[8]=result_soup
+        result_replace_pattern = re.compile(r'6\d*')
+
+        odds_return[8]=result_replace_pattern.sub('6',result_soup)
         # scraping the H/A odds
         # odds_tbl=self.browser.find_element_by_id("odds-data-table").find_element_by_partial_link_text("Pinnacle")
         # odds_tbl=self.browser.find_element_by_partial_link_text("Pinnacle")
@@ -631,12 +682,12 @@ class Homelist():
         sleep(1)
 
         if clicked:
-            AHodds_games=self.browser.find_elements_by_partial_link_text(" Games") # located to the inner link item
+            ahodds_games=self.browser.find_elements_by_partial_link_text(" Games") # located to the inner link item
             # unfold all the "games" tables
-            for row_AHodds_games in AHodds_games:
-                ahdicap_name=row_AHodds_games.text
+            for row_ahodds_games in ahodds_games:
+                ahdicap_name=row_ahodds_games.text
                 if (" Games" in ahdicap_name) and ("Asian handicap" in ahdicap_name):
-                    row_AHodds_games.click()
+                    row_ahodds_games.click()
             sleep(1)
 
             # find all the "pinnacle" and conpare
@@ -649,13 +700,13 @@ class Homelist():
                 td_row_ahodds_rows = row_ahodds_rows.select('td')
                 if len(td_row_ahodds_rows)!=0:
                     if ("Pinnacle" == td_row_ahodds_rows[0].find_all(class_='name')[0].string) and (td_row_ahodds_rows[4].string!="-"):
-                        AHodds_1=td_row_ahodds_rows[2].string
-                        AHodds_2=td_row_ahodds_rows[3].string
-                        currentdistance=(float(AHodds_1)-2)**2+(float(AHodds_2)-2)**2
+                        ahodds_1=td_row_ahodds_rows[2].string
+                        ahodds_2=td_row_ahodds_rows[3].string
+                        currentdistance=(float(ahodds_1)-2)**2+(float(ahodds_2)-2)**2
                         if currentdistance<distance:
                             odds_return[2]=td_row_ahodds_rows[1].string
-                            odds_return[3]=AHodds_1
-                            odds_return[4]=AHodds_2
+                            odds_return[3]=ahodds_1
+                            odds_return[4]=ahodds_2
                             distance=currentdistance
 
         # Donescraping AH odds, scraping O/U
@@ -668,12 +719,12 @@ class Homelist():
         sleep(1)
 
         if clicked:
-            OUodds_games=self.browser.find_elements_by_partial_link_text(" Games") # located to the inner link item
+            ouodds_games=self.browser.find_elements_by_partial_link_text(" Games") # located to the inner link item
             # unfold all the "games" tables
-            for row_OUodds_games in OUodds_games:
-                oudicap_name=row_OUodds_games.text
+            for row_ouodds_games in ouodds_games:
+                oudicap_name=row_ouodds_games.text
                 if (" Games" in oudicap_name) and ("Over/Under " in oudicap_name):
-                    row_OUodds_games.click()
+                    row_ouodds_games.click()
             sleep(1)
 
             # find all the "pinnacle" and conpare
@@ -686,14 +737,12 @@ class Homelist():
                 td_row_ouodds_rows = row_ouodds_rows.select('td')
                 if len(td_row_ouodds_rows)!=0:
                     if ("Pinnacle" == td_row_ouodds_rows[0].find_all(class_='name')[0].string) and (td_row_ouodds_rows[4].string!="-"):
-                        OUodds_1=td_row_ouodds_rows[2].string
-                        OUodds_2=td_row_ouodds_rows[3].string
-                        currentdistance=(float(OUodds_1)-2)**2+(float(OUodds_2)-2)**2
+                        ouodds_1=td_row_ouodds_rows[2].string
+                        ouodds_2=td_row_ouodds_rows[3].string
+                        currentdistance=(float(ouodds_1)-2)**2+(float(ouodds_2)-2)**2
                         if currentdistance<distance:
                             odds_return[5]=td_row_ouodds_rows[1].string
-                            odds_return[6]=OUodds_1
-                            odds_return[7]=OUodds_2
+                            odds_return[6]=ouodds_1
+                            odds_return[7]=ouodds_2
                             distance=currentdistance
-
-
         return odds_return

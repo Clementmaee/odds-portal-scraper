@@ -152,7 +152,7 @@ class Homelist():
         scraping_tournaments  = True # flag: whether scrape tournaments
         while scraping_tournaments:
             scraping_tournaments_input = input("Continue to scrape the tournaments of leagues? Y for yes, N for no:")
-            if scraping_tournaments_input is "Y":
+            if scraping_tournaments_input in ("Y", "y"):
                 scraping_tournaments=True
                 while True:
                     try:
@@ -183,7 +183,7 @@ class Homelist():
                             self.scrape_gamesofleagues(Leaguelisttoscape[strinput-1], True,False)
                             break
                 print("Finish scraping the specified data.")
-            elif scraping_tournaments_input is "N":
+            elif scraping_tournaments_input in ("N", "n"):
                 scraping_tournaments=False
                 break
             else:
