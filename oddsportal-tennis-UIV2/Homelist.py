@@ -29,8 +29,8 @@ class Homelist():
 
         # self.browser = webdriver.Firefox()
         self.browser = webdriver.Chrome()
-        self.browser.implicitly_wait(9)
-        self.browser.set_page_load_timeout(10)
+        self.browser.implicitly_wait(5)
+        self.browser.set_page_load_timeout(5)
         self.league = self.parse_json(current_set)
         self.league_list = pd.DataFrame(["league","country","url"])
         # self.wholetournamentcol=["year", "month","date","country","league","player1","player2","results"]
@@ -61,6 +61,63 @@ class Homelist():
         """
 
         return json.loads(json_str)
+
+    def scrape_sports(self,do_verbose_output=False):
+        """
+        Call the scrape method on every URL in this Scraper's league field, in
+        order, then close the browser.
+        Args:
+            do_verbose_output (bool): True/false do verbose output.
+        """
+
+        if do_verbose_output is True:
+            output_str = "Start scraping list of sports" + "..."
+            print(output_str)
+
+        # get all the leagues and url
+        leagues_url = self.league["urls"]
+        while True:
+            try:
+                self.browser.get(leagues_url)
+                break
+            except:
+                pass
+        # sleep(1)
+        while True:
+            try:
+                self.browser.find_element_by_class_name('user-header-fakeselect').click()
+                break
+            except:
+                pass
+
+        # find the widget defining the "odds formate"
+
+        while True:
+            try:
+                self.browser.find_element_by_link_text("EU Odds").click()
+                break
+            except:
+                pass
+        # print getStatusCode(self.browser.current_url)
+
+        # league_tbl = self.browser.find_elements_by_class_name("sport")
+        # use find_elements_by_css_selector because is not applicable for compound class names
+        sport_tbl = self.browser.find_element_by_css_selector(".sport_name")
+        sport_tbl_html = sport_tbl.get_attribute("innerHTML")
+        sport_tbl_soup = BeautifulSoup(sport_tbl_html, "html.parser")
+        sport_tbl_rows=sport_tbl_soup.select("td") #  find all "td" directly
+        sport_country=[]
+        sport_name=[]
+        sport_address=[]
+        for row in sport_tbl_rows:
+            sport_name_curr=row.string
+            if sport_name_curr:
+                sport_url_curr =row.a.get("href")
+                sport_name.append(sport_name_curr)
+                sport_address.append( self.league["urls"]+sport_url_curr+"results")
+                print("...", end="")
+
+
 
     def scrape_leagues(self, do_verbose_output=False):
         """
@@ -147,7 +204,8 @@ class Homelist():
             for i in range(len(Leaguelisttoscape)):
                 output_str = str(i+1)+": "+ Leaguelisttoscape[i]['country'] +", " + Leaguelisttoscape[i]['league'] + "; "+Leaguelisttoscape[i]['country']
                 print(output_str)
-        print("\n Done scraping the list of leagues.")
+        print("\n Done scraping the list of leagues.", end="\t")
+        print("(now:",datetime.datetime.now(),")")
 
         scraping_tournaments  = True # flag: whether scrape tournaments
         while scraping_tournaments:
@@ -172,7 +230,7 @@ class Homelist():
                             #     self.scrape_gamesofleagues(row_league_dict, True)
                             # test_loop for bug detection, formal code should use the loop shown above
                             # for lpindex_Leaguelisttoscape in range(len(Leaguelisttoscape)):
-                            for lpindex_Leaguelisttoscape in range(151,len(Leaguelisttoscape)):
+                            for lpindex_Leaguelisttoscape in range(0,len(Leaguelisttoscape)):
                                 self.scrape_gamesofleagues(Leaguelisttoscape[lpindex_Leaguelisttoscape], True,True)
                             print("scraping all")
                             break
@@ -182,7 +240,8 @@ class Homelist():
                             print(output_str)
                             self.scrape_gamesofleagues(Leaguelisttoscape[strinput-1], True,False)
                             break
-                print("Finish scraping the specified data.")
+                print("Finish scraping the specified data.", end="\t")
+                print("(now:",datetime.datetime.now(),")")
             elif scraping_tournaments_input in ("N", "n"):
                 scraping_tournaments=False
                 break
@@ -193,6 +252,7 @@ class Homelist():
         if do_verbose_output is True:
             output_str = "Finish scraping all the data.Please close the window."
             print(output_str)
+            print("(now:",datetime.datetime.now(),")", end="\t")
         self.browser.close()
 
     def scrape_gamesofleagues(self, league_dict, do_verbose_output=False, do_scrape_all=True):
@@ -200,6 +260,7 @@ class Homelist():
         if do_verbose_output is True:
             output_str = "Start scraping League " + league_dict["league"] + "..."
             print(output_str)
+            print("(now:",datetime.datetime.now(),")", end="\t")
         # get url of the league
         league_url = league_dict["url"]
         # self.browser.get(league_url)
@@ -219,7 +280,7 @@ class Homelist():
         year_url=[]
         if do_scrape_all is True:
             # 抓取所有年份
-            print("scraping data from 2011")
+            print("will scrape data from 2011")
             year_from = 2011
             year_end = datetime.datetime.now().year
         else:
@@ -255,6 +316,9 @@ class Homelist():
             if year_name_curr!="":
                 year_current=int(year_name_curr)
                 if year_current>=year_from and year_current<=year_end:
+                    output_thisyear = "now scape the data of "+year_name_curr+" for this league"
+                    print(output_thisyear, end="\t")
+                    print("(now:",datetime.datetime.now(),")")
                     y_curr=row.get("href")
                     year_url.append(y_curr)
                     year_index.append(year_name_curr)
@@ -414,7 +478,8 @@ class Homelist():
         # self.league_list=cols
 
         if do_verbose_output is True:
-            print("Done scraping all the tournaments of current league, and saving data to .csv file . Scaping the next one")
+            print("Have scraped all the tournaments of current league, and saving data to .csv file . Scaping the next one", end="\t")
+            print("(now:",datetime.datetime.now(),")")
 
     def is_leagues(self, tag):
         """
